@@ -1,0 +1,18 @@
+package dxc;
+
+public class Ticket implements Runnable{
+
+	/**
+	 * @param args
+	 */
+	private int num = 100;
+	
+	public void run(){
+		while(true){
+			if(num > 0){
+				System.out.println(Thread.currentThread().getName()+"...sale..." + num--);
+			}
+		}
+	}
+
+}

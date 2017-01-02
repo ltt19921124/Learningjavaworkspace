@@ -1,0 +1,9 @@
+package com.exampe.activitytest;
+
+public class FirstActivity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceStata){
+		super.onCreate(savedInstanceState);
+	}
+}

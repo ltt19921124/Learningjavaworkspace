@@ -1,0 +1,12 @@
+package bzl;
+
+public class WrapperDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
