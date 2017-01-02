@@ -1,0 +1,12 @@
+package demo;
+
+public class TestNumber {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}
