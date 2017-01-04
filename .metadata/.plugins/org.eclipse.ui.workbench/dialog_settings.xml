@@ -37,4 +37,6 @@
 			<item value="com.android.ide.eclipse.wizards.category"/>
 		</list>
 	</section>
+	<section name="FileSystemImportWizard">
+	</section>
 </section>
