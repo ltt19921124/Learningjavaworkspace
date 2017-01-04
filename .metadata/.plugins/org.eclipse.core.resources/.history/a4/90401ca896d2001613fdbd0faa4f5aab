@@ -1,0 +1,20 @@
+package List;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+public class ListDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		show(list);
+	}
+	
+	public static void show(List list ){
+		list.add("abc1");
+	}
+}
