@@ -1,0 +1,11 @@
+
+public class Dog {
+
+	/**
+	 * @param args
+	 */
+	String name;
+	int age;
+	Sting color;
+	
+}
