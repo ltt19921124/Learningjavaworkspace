@@ -1,0 +1,12 @@
+package constructor;
+
+public class A {
+
+	/**
+	 * @param args
+	 */
+	void funA(){
+		System.out.println("无参数构造函数");
+	}
+	
+}

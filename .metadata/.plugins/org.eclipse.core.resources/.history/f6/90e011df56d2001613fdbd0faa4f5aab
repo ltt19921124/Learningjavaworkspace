@@ -1,0 +1,13 @@
+package constructor;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		A a = new A();
+		a.funA();
+	}
+
+}
