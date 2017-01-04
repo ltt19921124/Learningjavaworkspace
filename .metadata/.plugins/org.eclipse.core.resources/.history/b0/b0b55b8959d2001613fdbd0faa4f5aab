@@ -15,8 +15,7 @@ public class Test {
 		Person p = new Person("zhangsan",10);
 		
 		Person p2 = new Person("lisi",20);
-		System.out.println("p的name是:" + p.name);
-		System.out.println("p2的name是:" + p2.name);
+		
 	}
 
 }

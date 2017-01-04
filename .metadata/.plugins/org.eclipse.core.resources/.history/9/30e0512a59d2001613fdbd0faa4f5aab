@@ -1,0 +1,10 @@
+package constructor;
+
+public class Person {
+
+	/**
+	 * @param args
+	 */
+	String name;
+	int age;
+}
