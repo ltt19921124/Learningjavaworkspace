@@ -1,0 +1,15 @@
+package This;
+
+public class Person {
+
+	/**
+	 * @param args
+	 */
+	String name;
+	int age;
+	
+	void talk(String name){
+		System.out.println("mu name is" + name);
+	}
+
+}
