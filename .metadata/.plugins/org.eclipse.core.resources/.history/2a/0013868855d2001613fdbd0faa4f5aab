@@ -14,8 +14,6 @@ public class Test {
 		
 		d.jump();
 		d2.jump();
-		//匿名对象的使用
-		new Dog().jump();
 		System.out.println("名字是：" + d.name);
 	}
 
