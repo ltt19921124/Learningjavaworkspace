@@ -4,9 +4,6 @@ public class Test {
 
 	/**
 	 * @param args
-	 * 静态变量：既可以用类名调用，也可以用
-	 * 对象调用
-	 * 
 	 */
 	public static void main(String[] args) {
 		Person p1 = new Person();

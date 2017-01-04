@@ -1,0 +1,19 @@
+package chouxiang;
+
+abstract class Demo {
+	/*
+	 *³éÏóº¯Êý
+	 *
+	 * 
+	 * 
+	 * 
+	 * */
+	String name;
+	int age;
+	
+	void introduce(){
+		
+	}
+	
+	abstract void eat();
+}
