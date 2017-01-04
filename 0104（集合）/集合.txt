@@ -9,7 +9,7 @@
 
 
 		
-顶层collection接口
+顶层是collection接口
 
 常见方法：
 1，添加
