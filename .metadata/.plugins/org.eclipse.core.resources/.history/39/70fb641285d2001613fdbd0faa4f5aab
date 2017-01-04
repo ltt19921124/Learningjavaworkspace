@@ -1,0 +1,12 @@
+package Collection;
+
+public class CollectionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

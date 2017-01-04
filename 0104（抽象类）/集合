@@ -11,7 +11,25 @@
 
 常见方法：
 1，添加
-
+	boolean add()
+	boolean addAll()
+	
 2，删除
-
-3，
+	boolean remove(object obj)
+	boolean removeAll(Collection coll)
+	void clear()
+3，判断
+	boolean contains
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
