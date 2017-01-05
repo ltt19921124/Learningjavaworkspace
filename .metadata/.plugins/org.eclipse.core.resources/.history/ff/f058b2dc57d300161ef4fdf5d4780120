@@ -11,20 +11,18 @@ public class ListDemo {
 	 */
 	public static void main(String[] args) {
 		List list = new ArrayList();//
-		show(list);
+//		show(list);
 		list.add("1");
 		list.add("2");
 		list.add("3");
-//		list.add("4");
-		System.out.println(list);
-		list.add(1,"abc9");
+		list.add("4");
 		
-//		System.out.println("sublist:"+ list.subList(1, 2));//子列表
+		System.out.println("sublist:"+ list.subList(1, 2));//子列表
 		
 		System.out.println(list);
 	}
 	
-	public static void show(List list ){
-		list.add("abc1");
-	}
+//	public static void show(List list ){
+//		list.add("abc1");
+//	}
 }

@@ -13,7 +13,7 @@ public class ListDemo2 {
 	 */
 	public static void main(String[] args) {
 		List list = new ArrayList();
-//		show(list);
+		show(list);
 	}
 
 	private static void show(List list) {
