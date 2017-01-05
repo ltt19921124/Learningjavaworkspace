@@ -26,7 +26,10 @@
 	boolean isEmpty();
 4,获取
 	int size();
-	
+	Iterator iteratot()
+5,其他
+	boolean retainAll(Collection coll);//取交集
+	Object[] toArray();//将集合转成数组
 	
 	
 	

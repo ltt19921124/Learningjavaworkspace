@@ -7,14 +7,14 @@ public class CollectionDemo {
 
 	/**
 	 * @param args
-	 *            迭代器
+	 * 迭代器
 	 */
 	public static void main(String[] args) {
 		Collection coll = new ArrayList();
-		// show(coll);
+		 show(coll);
 		Collection c1 = new ArrayList();
 		Collection c2 = new ArrayList();
-		show(c1, c2);
+//		show(c1, c2);
 	}
 
 	public static void show(Collection c1, Collection c2) {
@@ -45,17 +45,23 @@ public class CollectionDemo {
 	}
 
 	public static void show(Collection coll) {
-		// 添加元素
-		coll.add("abc");
+		// 1，添加元素，add()
+		coll.add("abc1");
 		coll.add("abc2");
 		coll.add("abc3");
-
-		// 删除元素
-		// coll.remove("abc2");//会改变集合长度
+		System.out.println(coll);
+		
+		//2,，删除元素,remove()
+		 coll.remove("abc2");//会改变集合长度
+		 
 		// 清空集合
-		// coll.clear();
-		// System.out.println(coll.contains("abc3"));//true
+//		 coll.clear();
+		System.out.println(coll.contains("abc3"));//true
 		System.out.println(coll);
 	}
 
 }
+
+
+
+
