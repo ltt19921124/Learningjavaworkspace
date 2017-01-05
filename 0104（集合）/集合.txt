@@ -13,17 +13,21 @@
 
 常见方法：
 1，添加
-	boolean add()
-	boolean addAll()
+	boolean add(Object);
+	boolean addAll(Collection coll);
 	
 2，删除
-	boolean remove(object obj)
-	boolean removeAll(Collection coll)
-	void clear()
+	boolean remove(Object obj);
+	boolean removeAll(Collection coll);
+	void clear();
 3，判断
-	boolean contains
-
-4，
+	boolean contains(Object obj);
+	boolean containsAll(Collection coll);
+	boolean isEmpty();
+4,获取
+	int size();
+	
+	
 	
 	
 	
