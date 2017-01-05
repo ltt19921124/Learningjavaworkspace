@@ -16,7 +16,6 @@ public class IteratorDemo {
 		coll.add("abc2");
 		coll.add("abc3");
 		coll.add("abc4");
-		coll.add("abc5");
 
 		// 调用collection中的iterator方法，调用集合中的迭代器方法，是为了获得
 		// 集合中的迭代器对象
