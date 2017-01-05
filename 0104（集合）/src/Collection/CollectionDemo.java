@@ -7,22 +7,26 @@ public class CollectionDemo {
 
 	/**
 	 * @param args
-	 * 迭代器
+	 *            迭代器
 	 */
 	public static void main(String[] args) {
 		Collection coll = new ArrayList();
-		 show(coll);
+
+		// show(coll);
+
 		Collection c1 = new ArrayList();
 		Collection c2 = new ArrayList();
-//		show(c1, c2);
+		// show(c1, c2);
 	}
 
 	public static void show(Collection c1, Collection c2) {
+		// 给c1添加元素
 		c1.add("abc1");
 		c1.add("abc2");
 		c1.add("abc3");
 		c1.add("abc4");
 
+		// 给c2添加元素
 		c2.add("abc2");
 		c2.add("abc6");
 		c2.add("abc7");
@@ -31,12 +35,12 @@ public class CollectionDemo {
 		System.out.println("c1:" + c1);
 		System.out.println("c2:" + c2);
 
-		// c1.addAll(c2);
+		// c1.addAll(c2);//将c2中的元素添加到c1中
 
 		boolean b = c1.removeAll(c2);// 将两个集合中相同元素删除
 		System.out.println("removeAll:" + b);
 
-		// boolean b = c1.contains(c2);
+		// boolean b = c1.containsAll(c2);
 		// System.out.println("containAll:" + b);
 
 		// boolean b = c1.retainAll(c2);//取交集，与removeAll功能相反
@@ -50,18 +54,14 @@ public class CollectionDemo {
 		coll.add("abc2");
 		coll.add("abc3");
 		System.out.println(coll);
-		
-		//2,，删除元素,remove()
-		 coll.remove("abc2");//会改变集合长度
-		 
+
+		// 2,，删除元素,remove()
+		coll.remove("abc2");// 会改变集合长度
+
 		// 清空集合
-//		 coll.clear();
-		System.out.println(coll.contains("abc3"));//true
+		// coll.clear();
+		System.out.println(coll.contains("abc3"));// true
 		System.out.println(coll);
 	}
 
 }
-
-
-
-
