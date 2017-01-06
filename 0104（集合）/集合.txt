@@ -59,12 +59,18 @@ List特有的常见方法：有一个共性特点，就是都可以操作下标。
 	List subList(from,to);s
 	
 获取。	获取
+
+List 
+	|---Vector:是数组数据结构，是同步的
+	|---ArrayList：
+	|---LinkedList：内部是
 	
 	
+Map:一次添加一对元素，而collection一次添加一个元素，Map:双列集合，	
+	常用方法：
+	1，添加
 	
-	
-	
-	
-	
+
+	2，删除
 	
 	
