@@ -58,7 +58,7 @@ List特有的常见方法：有一个共性特点，就是都可以操作下标。
 	int lastIndexOf();
 	List subList(from,to);s
 	
-	
+获取	
 	
 	
 	
