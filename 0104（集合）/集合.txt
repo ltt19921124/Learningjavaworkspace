@@ -66,10 +66,10 @@ List
 	|---LinkedList：内部是
 	
 	
-Map:一次添加一对元素，而collection一次添加一个元素，Map:双列集合，	
+Map:一次添加一对元素，而collection一次添加一个元素，Map也称为双列集合，collection也称为单列集合，Map集合中存储的是键值对。map中必须保证键的唯一性。	
 	常用方法：
 	1，添加
-	
+	key1,v1  key1,v2，这样值会被替换。
 
 	2，删除
 	
