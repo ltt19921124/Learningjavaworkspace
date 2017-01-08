@@ -31,8 +31,7 @@ public class MapDemo {
 		
 		while(it.hasNext()){
 			Integer key = it.next();
-			String value = map.get(key);
-			System.out.println(key + ":" + value);
+			System.out.println(key);
 		}
 	}
 
