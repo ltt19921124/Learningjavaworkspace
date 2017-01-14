@@ -19,10 +19,10 @@ public class FileReaderDemo {
 		
 		
 		//用Reader中的read方法读取字符，
-//		int ch = fr.read();
-//		System.out.println((char)ch);
-//		int ch1 = fr.read();
-//		System.out.println(ch1);
+		int ch = fr.read();
+		System.out.println((char)ch);
+		int ch1 = fr.read();
+		System.out.println(ch1);
 //		int ch2 = fr.read();
 //		System.out.println(ch3);
 	
