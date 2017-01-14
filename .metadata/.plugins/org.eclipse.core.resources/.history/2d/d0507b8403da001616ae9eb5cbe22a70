@@ -22,9 +22,7 @@ public class FileReaderDemo {
 		System.out.println((char)ch);
 		int ch1 = fr.read();
 		System.out.println(ch1);
-//		int ch2 = fr.read();
-//		System.out.println(ch3);
-	
+		
 		
 		fr.close();
 	}
