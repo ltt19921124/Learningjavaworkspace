@@ -36,8 +36,8 @@ public class FileReaderDemo {
 		 * 先创建字符数组
 		 */
 		char[] buf = new char[3];
-		int num = fr.read(buf);//将读到的字符存储到数组中
-		System.out.println(num);
+		
+		
 		
 		fr.close();
 	}
