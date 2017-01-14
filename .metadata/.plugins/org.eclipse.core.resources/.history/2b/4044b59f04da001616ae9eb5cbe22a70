@@ -38,8 +38,7 @@ public class FileReaderDemo {
 		char[] buf = new char[3];
 		
 		
-		
-		fr.close();
+		fr.close()
 	}
 
 }

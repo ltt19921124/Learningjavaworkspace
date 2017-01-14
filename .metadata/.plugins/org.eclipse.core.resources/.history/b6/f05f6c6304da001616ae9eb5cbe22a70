@@ -25,19 +25,10 @@ public class FileReaderDemo {
 //		System.out.println(ch1);
 //		int ch2 = fr.read();
 //		System.out.println(ch3);
-//		int ch = 0;
-//		while((ch=fr.read()) != -1){
-//			System.out.println((char)ch);
-//		}
-		
-//		fr.close();
-		/*
-		 * 使用read(char())读取文本文件数据
-		 * 先创建字符数组
-		 */
-		char[] buf = new char[3];
-		
-		
+		int ch = 0;
+		while((ch=fr.read()) != -1){
+			System.out.println((char)ch);
+		}
 		
 		fr.close();
 	}

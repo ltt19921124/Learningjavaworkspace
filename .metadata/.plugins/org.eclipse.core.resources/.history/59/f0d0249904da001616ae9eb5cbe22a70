@@ -35,11 +35,7 @@ public class FileReaderDemo {
 		 * 使用read(char())读取文本文件数据
 		 * 先创建字符数组
 		 */
-		char[] buf = new char[3];
 		
-		
-		
-		fr.close();
 	}
 
 }

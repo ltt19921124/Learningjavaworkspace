@@ -36,10 +36,6 @@ public class FileReaderDemo {
 		 * 先创建字符数组
 		 */
 		char[] buf = new char[3];
-		
-		
-		
-		fr.close();
 	}
 
 }
