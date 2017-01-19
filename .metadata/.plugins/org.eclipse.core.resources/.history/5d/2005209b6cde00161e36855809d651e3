@@ -9,7 +9,7 @@ public class ArrayDemo4 {
 		
 		int[] arr = {34,67,19,80,70};
 		
-		selectSort(arr) ;
+		selectSort(arr);
 		
 	}
 	
