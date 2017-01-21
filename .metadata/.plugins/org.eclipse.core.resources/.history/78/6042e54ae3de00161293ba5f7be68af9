@@ -1,0 +1,12 @@
+package array;
+
+public class ArrayDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
