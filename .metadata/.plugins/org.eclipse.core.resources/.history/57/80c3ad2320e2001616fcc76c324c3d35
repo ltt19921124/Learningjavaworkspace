@@ -1,0 +1,25 @@
+public class ArrayDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * */
+		// Œª÷√÷√ªª
+		int[] arr = { 4, 7, 8, 9, 45, 20 };
+		int index = getMax(arr, 7);
+		System.out.println("index=" + index);
+		//
+	}
+
+	public static int getMax(int[] arr, int key) {
+		for (int x = 0; x < arr.length; x++) {
+			if (arr[x] == key) {
+				return x;
+			}
+		}
+		return -1;
+	}
+}
