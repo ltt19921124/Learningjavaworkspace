@@ -11,10 +11,10 @@ public class ArrayDemo {
 		 * */
 		// 位置置换
 		int[] arr = { 4, 7, 8, 9, 45, 89 };
-		int index = halfSearch(arr, 50);
+		int index = halfSearch(arr, 89);
 		System.out.println("index=" + index);
 		
-		int index1 = Arrays.binarySearch(arr, 50);//折半查找,-min-1,返回，
+		int index1 = Arrays.binarySearch(arr, 89);//折半查找（也叫二分查找）,-min-1,返回，
 		//如果存在返回元素的位置，如果不存在，返回应该插入点位置的负数再减一
 		System.out.println("index1=" + index1);
 		// 数组常见功能：查找
@@ -28,7 +28,6 @@ public class ArrayDemo {
 		}
 		return -1;
 	}
-
 	/*
 	 * 二分查找
 	 */
@@ -38,7 +37,8 @@ public class ArrayDemo {
 		max = arr.length - 1;
 		mid = (max + min) / 2;
 
-		while (max >= min) {
+		while (min<=max) {
+			mid = (max + min) >> 1;
 			if (key > arr[mid]) {
 				min = mid + 1;
 			} else if (key < arr[mid]) {
@@ -46,9 +46,8 @@ public class ArrayDemo {
 			}
 			else
 				return mid;
-			mid = (max + min) >> 1;
 		}
-		return min;
+		return -1;
 	}
 	/*
 	 * 有一个有序的数组，若往该数组中存储一个数，并保证这个数组 还是有序的，那么这个元素的下标应该是多少？ 思路：折半查找。
