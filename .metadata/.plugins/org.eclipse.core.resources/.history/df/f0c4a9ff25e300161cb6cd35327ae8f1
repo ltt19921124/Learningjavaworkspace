@@ -12,7 +12,7 @@ public class Test {
 		 * */
 		int[][]arr = new int[3][2];//创建一个二维数组，该数组中有3个一维数组，每个
 		//一维数组有两个元素。
-		System.out.println(arr);
+		 
 		
 		
 	}
