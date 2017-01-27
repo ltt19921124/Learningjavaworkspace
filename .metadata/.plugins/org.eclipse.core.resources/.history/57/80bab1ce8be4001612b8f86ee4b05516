@@ -1,0 +1,25 @@
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		/*大象装进冰箱里
+		 * 
+		 * 面向过程：打开冰箱，存储大象，关上冰箱。
+		 * 
+		 * 
+		 *面向对象(重点掌握):
+		 * 
+		 * 
+		 * 
+		 * 
+		 * */
+		
+		
+		
+	}
+
+}
