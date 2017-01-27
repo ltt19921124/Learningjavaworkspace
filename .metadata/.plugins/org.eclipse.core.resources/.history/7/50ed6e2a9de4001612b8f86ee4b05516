@@ -1,14 +1,8 @@
 
-//描述汽车
 class Car{
 	int num;
 	String color;//String不是关键字
-	
-	void run(){
-		System.out.println(num+"...."+color);
-	}
 }
-
 
 public class CarDemo {
 

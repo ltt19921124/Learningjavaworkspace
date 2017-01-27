@@ -1,4 +1,3 @@
-
 //ÃèÊöÆû³µ
 class Car{
 	int num;
