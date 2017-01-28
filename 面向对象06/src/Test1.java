@@ -12,6 +12,7 @@ public class Test1 {
 	}
 	public static void show(int x){
 		x = 4;
+		return;
 	}
 }
 
@@ -22,7 +23,7 @@ class Demo{
 		Demo d = new Demo();
 		d.x = 9;
 		show(d);
-		System.out.println(d.x);
+		System.out.println(d.x);//´òÓ¡³ö4
 	}
 	public static void show(Demo d){
 		d.x = 4;
