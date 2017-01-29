@@ -6,13 +6,13 @@ class Person {
 
 	// 定义一个Person类的构造函数
 
-	Person() {// 空参数的构造函数
-		System.out.println("person run");
-	}
-
-	public void speak() {
-		System.out.println(name + ":" + age);
-	}
+//	Person() {// 空参数的构造函数
+//		System.out.println("person run");
+//	}
+//
+//	public void speak() {
+//		System.out.println(name + ":" + age);
+//	}
 }
 
 public class ConsDemo {

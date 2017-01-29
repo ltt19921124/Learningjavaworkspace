@@ -22,7 +22,7 @@ public class ConsDemo {
 	 */
 	public static void main(String[] args) {
 		Person p = new Person();//运行打印出person run 
-		//构建创造对象时调用的函数，作用：给对象初始化。
+		//构建创造对象时调用的函数
 	}
 
 }
