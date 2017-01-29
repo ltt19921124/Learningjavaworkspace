@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;06/src/面向对象/面向对象.txt&apos; to &apos;面向对象(封装).txt&apos;" description="Rename resource &apos;面向对象.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/面向对象/面向对象.txt" name="面向对象(封装).txt" stamp="1485672364002" updateReferences="true"/>
+</session>
