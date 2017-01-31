@@ -1,0 +1,12 @@
+package 数据工具类;
+
+public class ArrayTool {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
