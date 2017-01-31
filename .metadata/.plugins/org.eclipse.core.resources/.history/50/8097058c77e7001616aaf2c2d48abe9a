@@ -20,13 +20,6 @@ class Person{
 	public void speak(){
 		System.out.println(this.name+":" + this.age);
 	}
-	/*
-	 * 判断是否是同龄人
-	 * 
-	 * */
-	
-	
-	
 }
 
 public class ThisDemo {
