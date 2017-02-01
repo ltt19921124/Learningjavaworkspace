@@ -1,0 +1,25 @@
+package 继承;
+//继承的弊端：打破了封装性
+
+class Fu_1{
+	void method(){
+		//调用底层资源
+	}
+}
+
+class Zi_1 extends Fu_1{
+	void method(){
+		System.out.println("haha");
+	}
+}
+
+public class FinalDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

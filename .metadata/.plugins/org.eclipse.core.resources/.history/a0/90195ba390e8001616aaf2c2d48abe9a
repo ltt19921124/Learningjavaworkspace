@@ -1,0 +1,12 @@
+package ³éÏóÀà;
+
+public class AbstractDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
