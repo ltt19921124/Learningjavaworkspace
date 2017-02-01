@@ -1,0 +1,24 @@
+package 继承;
+
+/*
+ * 子父类中构造函数的特点
+ * 
+ * */
+class Fu{
+	
+}
+
+class Zi extends Fu{
+	
+}
+
+public class ExtendsDemo4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}
