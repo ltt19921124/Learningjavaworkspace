@@ -1,0 +1,12 @@
+package ผฬณะ;
+
+public class ExtendsDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

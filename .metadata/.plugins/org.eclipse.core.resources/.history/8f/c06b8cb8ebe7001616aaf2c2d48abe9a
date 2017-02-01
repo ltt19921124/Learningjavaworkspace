@@ -1,0 +1,32 @@
+package ผฬณะ;
+
+class Person{
+	String name;
+	int age;
+}
+
+class Student extends Person{
+	String name;
+	int age;
+	void study(){
+		System.out.println("student study");
+	}
+}
+
+class Worker extends Person{
+	String name;
+	int age;
+	void work(){
+		System.out.println("worker work");
+	}
+}
+public class ExtendsDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
