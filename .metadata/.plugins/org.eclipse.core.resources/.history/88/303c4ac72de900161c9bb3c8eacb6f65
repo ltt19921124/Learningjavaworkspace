@@ -1,0 +1,19 @@
+package ½Ó¿Ú;
+/*
+ * 
+ * */
+abstract class AbsDemo{
+	abstract void show1();
+	abstract void show2();
+}
+
+ class InterfaceDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;20170131(this关键字)&apos; to &apos;20170131(this、static)&apos;&#x0D;&#x0A;- Original element: &apos;20170131(this关键字)&apos;&#x0D;&#x0A;- Renamed element: &apos;20170131(this关键字)&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;20170131(this关键字)&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=20170131\(this关键字)" name="20170131(this、static)" references="true" stamp="1486031252186" version="1.0"/>
+</session>

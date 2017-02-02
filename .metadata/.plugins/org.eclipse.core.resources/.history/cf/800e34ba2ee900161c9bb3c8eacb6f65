@@ -1,0 +1,26 @@
+package 接口;
+/*
+ * 当抽象类中的方法都是抽象的时候，这时就可以将该抽象类以
+ * 另一种方式定义和表示，就是 接口 interface
+ * 
+ * 定义接口的方式关键字不是 class,而是 interface
+ * 
+ * 接口中常见的成员，而且他们都有固定的修饰符
+ * 1，全局常量
+ * 2，抽象方法
+ * */
+ interface Demo{
+	abstract void show1();
+	abstract void show2();
+}
+
+ class InterfaceDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
