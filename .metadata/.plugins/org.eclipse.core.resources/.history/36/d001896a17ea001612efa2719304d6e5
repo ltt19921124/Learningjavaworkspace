@@ -1,0 +1,26 @@
+package ≥ÈœÛ¿‡;
+
+abstract class Employee{
+	private String name;
+	private int age;
+	private double pay;
+	
+	Employee(String name,String id,double pay){
+		this.name = name;
+		this.id = id;
+		this.pay = pay;
+	}
+	
+	abstract void work();
+}
+
+public class AbstractTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
