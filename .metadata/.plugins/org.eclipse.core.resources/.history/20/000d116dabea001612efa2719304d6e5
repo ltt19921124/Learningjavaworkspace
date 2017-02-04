@@ -1,0 +1,42 @@
+package 多态;
+
+/*多态时
+ * 1，成员变量
+ * 		编译时，参考引用型变量所属的类中是否有调用的成员变量，有编译通过，没有
+ * 		编译失败
+ * 		运行时：参考引用型变量所属的类中是否有调用的成员变量，并运行该所属类中的
+ * 		成员变量
+ * 		简单说，就是编译和运行都参考左边
+ * 
+ * 2，成员函数
+ * 		编译时，参考引用型变量所属的类中是否有调用的成员变量，有编译通过，没有
+ * 		编译失败
+ * 		运行时，
+ * 
+ * 3，静态函数
+ * */
+class Fu{
+	int num = 3;
+}
+
+class Zi extends Fu{
+	int num = 4;
+}
+
+public class DuoTaiDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		Zi z = new Zi();
+//		System.out.println(z.num);
+		
+		Fu f = new Zi();
+		System.out.println(f.num);
+	}
+
+}
+
+
+

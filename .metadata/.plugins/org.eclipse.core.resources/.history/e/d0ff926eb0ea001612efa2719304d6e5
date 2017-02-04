@@ -1,0 +1,16 @@
+/*
+ * 异常：是在运行时期发生的不正常情况
+ * 
+ * */
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = new int[3];
+		arr = null;
+		System.out.println(arr[3]);// 数组角标异常
+	}
+
+}

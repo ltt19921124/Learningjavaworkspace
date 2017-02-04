@@ -1,0 +1,18 @@
+package ÄÚ²¿Àà;
+
+
+class Outer{
+	class Inner{
+		
+	}
+}
+public class Outer {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

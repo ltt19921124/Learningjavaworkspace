@@ -1,0 +1,19 @@
+/*
+ * 异常：是在运行时期发生的不正常情况
+ * 
+ * 在java中用类的形式对不正常情况进行了描述和封装
+ * 描述不正常的情况的类，就是异常类
+ * 
+ * */
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = new int[3];
+		arr = null;
+		System.out.println(arr[3]);// 数组角标异常
+	}
+
+}
