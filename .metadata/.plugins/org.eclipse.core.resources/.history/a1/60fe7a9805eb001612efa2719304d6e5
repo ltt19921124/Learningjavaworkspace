@@ -1,0 +1,19 @@
+import java.io.*;
+public class TestChar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		FileReader fr = null;
+		FileWriter fw = null;
+		try{
+			
+		}catch(Exception e){
+			System.out.println(e);
+		}finally{
+			
+		}
+	}
+
+}

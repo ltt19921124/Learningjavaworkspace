@@ -1,0 +1,21 @@
+import java.io.*;
+public class TestChar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		FileReader fr = null;
+		FileWriter fw = null;
+		try{
+			fr = new FileReader("F:/from.txt");
+			fw = new FileWriter("F:/to.txt");
+			
+		}catch(Exception e){
+			System.out.println(e);
+		}finally{
+			
+		}
+	}
+
+}

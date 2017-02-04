@@ -40,8 +40,13 @@ public class Test {
 //			e.printStackTrace();
 			System.out.println(e);
 		}finally{
-			fis.close();
-			fos.close();
+			try{
+				fis.close();
+				fos.close();
+			}
+			catch(Exception e){
+				System.out.println(e);
+			}
 		}
 	}
 
