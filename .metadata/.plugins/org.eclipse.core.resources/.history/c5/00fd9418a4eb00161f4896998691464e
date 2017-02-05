@@ -1,0 +1,19 @@
+package 多线程Mars;
+/*
+ * 多进程：
+ * 		在操作系统中，同时运行多个任务
+ * 
+ * 多线程：
+ * 		在同一应用程序中，有多个顺序流同时执行
+ * 
+ * */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package ∂‡œﬂ≥ÃMars;
+
+class RunnableImpl implements Runnable{
+	public void run(){
+		for(int i=0;i < 100;i++){
+			System.out.println("Runnable-->" + i);
+			if(i == 50){
+				try{
+					Thread.yield();
+				}catch(Exception e){
+					System.out.println(e);
+				}
+			}
+		}
+	}
+}
+
+public class Thread_2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		RunnableImpl ri = new RunnableImpl();
+		Thread t = new Thread(ri);
+		t.start();
+		
+//		for(int i = 0;i< 150;i++){
+//			System.out.println("main-->" + i);
+//		}
+	}
+
+}
