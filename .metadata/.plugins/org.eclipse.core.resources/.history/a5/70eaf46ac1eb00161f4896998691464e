@@ -12,10 +12,10 @@ public class Test {
 		Thread t2 = new Thread(mt);
 
 		//线程都有名字，可以通过setName方法设置名字，也可以
-		//通过getName方法得到线程名字
+		//通过getName方法得到线程名字。
 		t1.setName("线程a");
 		t2.setName("线程b");
-		//分别启动两个线程
+		
 		t1.start();
 		t2.start();
 	}
