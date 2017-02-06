@@ -1,0 +1,24 @@
+package object¿‡;
+
+class Person {
+	private int age;
+
+	Person(int age) {
+		this.age = age;
+	}
+}
+
+public class ObjectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Person p1 = new Person(20);
+		Person p2 = new Person(20);
+		Person p3 = p1;
+		System.out.println(p1 == p2);//false
+		System.out.println(p1.equals(p3));//false
+	}
+
+}

@@ -51,7 +51,14 @@
  *		}finally{
  *			//一定会被执行的代码
  *		}
+ *
+ *		什么时候catch，什么时候throws？
+ *		功能内容可以解决，catch
+ *		解决不了，用throws告诉调用者，由调用者解决。
+ *		finally里面关闭资源，也称为异常的出口
+ *		
  * */
+
 public class ExceptionDemo {
 
 	/**
