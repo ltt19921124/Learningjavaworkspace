@@ -1,0 +1,16 @@
+package 多线程Mars;
+
+import java.util.Scanner;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int x = in.nextInt();
+		System.out.println("输入一个数:");
+	}
+
+}

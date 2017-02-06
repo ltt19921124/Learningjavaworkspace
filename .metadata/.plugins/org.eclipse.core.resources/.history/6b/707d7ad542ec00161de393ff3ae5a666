@@ -1,0 +1,23 @@
+package 多线程Mars;
+
+import java.util.Scanner;
+
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.out.print("输入一个数:");
+		int count = 0;
+		Scanner in = new Scanner(System.in);
+		int number = in.nextInt();
+		while (number > 0) {
+			number /= 10;
+			count++;
+		}
+		in.close();
+		System.out.println(number + "是" + count + "位数");
+	}
+
+}
