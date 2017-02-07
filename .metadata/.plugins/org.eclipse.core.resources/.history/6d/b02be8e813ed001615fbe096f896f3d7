@@ -1,0 +1,17 @@
+package 多线程;
+/*
+ * 进程：正在运行的程序
+ * 线程：就是进程中的一个负责程序执行的控制单元(执行路径)
+ * 一个进程中可以有多个执行路径：称为多线程
+ * 
+ * */
+public class ThreadDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

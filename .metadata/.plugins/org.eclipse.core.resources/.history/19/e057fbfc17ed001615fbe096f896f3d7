@@ -1,0 +1,18 @@
+package ∂‡œﬂ≥Ã;
+
+class Demo_1 extends Thread{
+	public void run(){
+		
+	}
+}
+
+public class ThreadDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

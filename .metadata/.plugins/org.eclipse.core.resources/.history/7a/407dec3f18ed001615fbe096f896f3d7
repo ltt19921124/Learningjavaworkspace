@@ -1,0 +1,26 @@
+
+/*
+ * 
+ * 
+ * */
+
+package ∂‡œﬂ≥Ã;
+
+class Demo_1 extends Thread{
+	public void run(){
+		for(int i=0;i<100;i++){
+			System.out.println("demo"+i);
+		}
+	}
+}
+
+public class ThreadDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

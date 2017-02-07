@@ -1,0 +1,23 @@
+package ¶àÏß³Ì;
+
+class Ticket{
+	private int num = 100;
+	public void sale(){
+		while(true){
+			if(num>0){
+				System.out.println(num--);
+			}
+		}
+	}
+}
+
+public class TicketDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

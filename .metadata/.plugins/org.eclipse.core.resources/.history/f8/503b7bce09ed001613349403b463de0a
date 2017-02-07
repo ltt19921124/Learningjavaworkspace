@@ -1,0 +1,15 @@
+package 多线程;
+/*
+ * 进程：正在运行的程序
+ * 
+ * */
+public class ThreadDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
