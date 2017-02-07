@@ -9,6 +9,19 @@
  * 
  * 		当一个线程在执行操作共享数据的多条代码时，其他的线程
  * 		参与了运算。就会导致安全问题的产生。
+ * 		
+ * 		解决方式：将多条操作共享数据的线程代码封装起来，当有线程
+ * 		在操作这些代码的时候，其他线程不能参与运算
+ * 		必须要有当前线程把这些代码执行完毕后，其他线程才可以
+ * 		参与运算。
+ * 		
+ * 		多线程同步的好处和弊端：
+ * 			同步的好处：解决了线程的安全问题
+ * 
+ * 			同步的弊端：相对来讲降低了效率，因为同步外的线程都会判断同步锁
+ * 			
+ * 			同步的前提：	
+ * 
  * 
  * */
 
@@ -17,17 +30,19 @@ package 多线程;
 class Ticket extends Thread{
 	
 	private int num = 100;
-	
+	Object obj = new Object();
 	public void run(){
 		while(true){
-			if(num>0){
-				try {
-					Thread.sleep(100);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+			synchronized(obj){
+				if(num>0){
+//					try {
+//						Thread.sleep(10);
+//					} catch (InterruptedException e) {
+						// TODO Auto-generated catch block
+//						e.printStackTrace();
+//					}
+					System.out.println(Thread.currentThread().getName()+"..."+"sale..."+num--);
 				}
-				System.out.println(Thread.currentThread().getName()+"..."+"sale..."+num--);
 			}
 		}
 	}
