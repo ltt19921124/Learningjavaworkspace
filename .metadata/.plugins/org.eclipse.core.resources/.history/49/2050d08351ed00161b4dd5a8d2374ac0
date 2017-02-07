@@ -24,7 +24,7 @@ public class StringMethodDemo {
 	}
 
 	private static void stringMethodDemo_1() {
-		String s = "abcd";
+		
 		
 	}
 
