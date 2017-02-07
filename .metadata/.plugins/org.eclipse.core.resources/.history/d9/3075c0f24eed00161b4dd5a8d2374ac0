@@ -1,0 +1,21 @@
+package string¿‡;
+
+public class StringConstructorDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		StringContructorDemo();
+		
+		
+		
+	}
+
+	private static void StringContructorDemo() {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package string类;
+
+public class StringConstructorDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		StringContructorDemo();
+		
+		byte[] arr = {65,66,67,68};
+		
+		String s1 = new String(arr);
+		System.out.println("s1=" + s1);
+	}
+
+	private static void StringContructorDemo() {
+		String s = new String();//等效于string s = "";不等效于String s = null;
+		
+		
+	}
+
+}

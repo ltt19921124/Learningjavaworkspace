@@ -1,0 +1,31 @@
+package string类;
+
+public class StringMethodDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 字符串常见功能分类
+		 * 		"abcd"
+		 * 		1，获取
+		 * 		1.1获取字符串长度： int length();
+		 * 
+		 * 		1.2根据为主获取字符：char (int index)
+		 * 		
+		 * 
+		 * 
+		 * 
+		 * 
+		 * */
+		stringMethodDemo_1();
+		
+	}
+
+	private static void stringMethodDemo_1() {
+		
+		
+	}
+
+}

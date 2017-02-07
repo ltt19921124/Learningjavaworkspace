@@ -1,0 +1,17 @@
+package string类;
+
+public class StringMethodDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 字符串常见功能分类
+		 * 1，
+		 * 
+		 * 
+		 * */
+	}
+
+}
