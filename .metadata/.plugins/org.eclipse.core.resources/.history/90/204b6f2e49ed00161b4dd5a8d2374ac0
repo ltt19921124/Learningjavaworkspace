@@ -1,0 +1,28 @@
+package string类;
+
+/*
+ * String类的特点：
+ * 		字符串对象一旦初始化就不能改变
+ * 		
+ * 
+ * */
+
+public class StringDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		stringDemo_1();
+	}
+
+	private static void stringDemo_1() {
+		String s = "abc";
+//		s = "nba";
+		String s1 = "abc";//"abc"存储在常量池中，没有就创建，有就直接用
+		
+		System.out.println(s==s1);//true
+//		System.out.println("s="+s);
+	}
+
+}

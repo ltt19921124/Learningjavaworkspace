@@ -6,12 +6,12 @@ package 多线程;
 
 class Bank{
 	private int sum;
-	Object obj = new Object();
-	public void add(int num){
-		synchronized(obj){
+//	Object obj = new Object();
+	public synchronized void add(int num){//同步函数
+//		synchronized(obj){
 			sum= sum + num;
 			System.out.println("sum=" + sum);
-		}
+//		}
 	}
 }
 

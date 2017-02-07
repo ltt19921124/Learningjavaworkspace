@@ -1,0 +1,18 @@
+package string类;
+
+/*
+ * String类的特点：
+ * 		一旦初始化就不能改变
+ * 
+ * */
+
+public class StringDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
