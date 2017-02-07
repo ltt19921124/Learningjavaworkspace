@@ -30,12 +30,28 @@ public class StringMethodDemo {
 		 * 		int lastIndexOf(String str,int fromIndex)
 		 * 
 		 * 1.4获取字符串中的一部分字符串(也叫子串)。
-		 * 	String subString(int begin int end )
+		 * 	String subString(int beginIndex int endIndex )
+		 * 	String subString(int beginIndex)
+		 * 
+		 * 2,转换
+		 * 	2,1 将字符串变成字符串数组(字符串切割)
+		 * 		String[] split(String regex)			
+		 * 
 		 * 
 		 * 
 		 */
-		stringMethodDemo_1();
+//		stringMethodDemo_1();
+		stringMethodDemo_2();
 
+	}
+
+	private static void stringMethodDemo_2() {
+		String s = "张三.李四.王五";
+//		String[] arr = s.split(",");//","就是规则//
+		String[] arr = s.split("\\.");//"."是特殊符号，要转义"\\."
+		for(int i = 0;i < arr.length;i++){
+			System.out.println(arr[i]);
+		}
 	}
 
 	private static void stringMethodDemo_1() {
@@ -51,6 +67,9 @@ public class StringMethodDemo {
 		System.out.println("lastindex:" + s.lastIndexOf('a'));// lastindex:0
 		// int index = Arrays.binarySearch(arr, 6) ;
 		// sSystem.out.println("index:" + index);//-4
+		
+		System.out.println("substring:"+s.substring(2,4));//substring:cd
+		System.out.println("substring:"+s.substring(2,s.length()));//substring:cdae
 	}
 
 }
