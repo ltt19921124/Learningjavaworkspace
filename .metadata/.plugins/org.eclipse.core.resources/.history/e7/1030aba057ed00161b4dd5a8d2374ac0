@@ -10,8 +10,7 @@ public class StringMethodDemo {
 	public static void main(String[] args) {
 		/*
 		 * 字符串常见功能分类 "abcd" 
-		 * 1，获取 
-		 * 1.1获取字符串长度： 
+		 * 1，获取 1.1获取字符串长度： 
 		 * 		int length();
 		 * 
 		 * 1.2根据位置获取字符：
@@ -27,7 +26,7 @@ public class StringMethodDemo {
 		 * 		int lastIndexOf(int ch) 
 		 * 		int lastIndexOf(intch,int fromIndex)//从指定位置找 
 		 * 		int lastIndexOf(String str) 
-		 * 		int lastIndexOf(String str,int fromIndex)
+		 * q	int lastIndexOf(String str,int fromIndex)
 		 * 
 		 * 1.4获取字符串中的一部分字符串(也叫子串)。
 		 * 	String subString(int begin int end )
