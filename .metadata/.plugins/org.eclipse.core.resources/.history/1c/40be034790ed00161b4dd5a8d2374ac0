@@ -37,7 +37,7 @@ public class StringMethodDemo {
 		 * 	2,1 将字符串变成字符串数组(字符串切割)
 		 * 		String[] split(String regex)//涉及到正则表达式			
 		 * 	2,2 将字符串变成字符数组	
-		 * 		char[] toCharArray()
+		 * 		char[] tocharArray()
 		 * 
 		 */
 //		stringMethodDemo_1();
