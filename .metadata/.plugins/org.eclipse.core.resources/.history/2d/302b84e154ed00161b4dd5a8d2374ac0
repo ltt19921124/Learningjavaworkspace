@@ -1,0 +1,41 @@
+package string类;
+
+public class StringMethodDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 字符串常见功能分类
+		 * 		"abcd"
+		 * 		1，获取
+		 * 		1.1获取字符串长度： int length();
+		 * 
+		 * 		1.2根据位置获取字符：char charAt(int index)
+		 * 		
+		 * 		1.3根据字符获取位置:
+		 * 				int indexOf(int ch)
+		 * 				int indexOf(int ch,int fromIndex)//从指定位置找
+		 * 				int indexOf(String str)
+		 * 				int indexOf(String str,int fromIndex)
+		 * 				根据字符串获取位置
+		 * 				int lastIndexOf(int ch)
+		 * 				int lastIndexOf(int ch,int fromIndex)//从指定位置找
+		 * 				int lastIndexOf(String str)
+		 * 				int lastIndexOf(String str,int fromIndex)
+		 * */
+		stringMethodDemo_1();
+		
+	}
+
+	private static void stringMethodDemo_1() {
+		String s = "abcdae";
+		
+		System.out.println("length:"+s.length());//length:6
+		System.out.println("char:"+s.charAt(20));//char:c
+		System.out.println("index:"+s.indexOf('c'));//index:2
+		System.out.println("lastindex:"+s.lastIndexOf('a'));//lastindex:0
+	}
+
+}
