@@ -1,0 +1,45 @@
+/*
+ * 线程安全问题
+ * 
+ * */
+
+package 多线程;
+
+class Ticket extends Thread{
+	
+	private int num = 100;
+	
+	public void run(){
+		while(true){
+			if(num>0){
+				try {
+					Thread.sleep(10000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				System.out.println(Thread.currentThread().getName()+"..."+"sale..."+num--);
+			}
+		}
+	}
+}
+
+public class TicketDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Ticket t = new Ticket();
+		
+		Thread t1 = new Thread(t);
+		Thread t2 = new Thread(t);
+		Thread t3 = new Thread(t);
+		Thread t4 = new Thread(t);
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+	}
+
+}
