@@ -1,0 +1,12 @@
+package WrapperDemo;
+
+public class WrapperDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

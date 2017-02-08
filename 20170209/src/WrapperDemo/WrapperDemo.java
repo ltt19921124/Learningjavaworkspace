@@ -25,7 +25,7 @@ public class WrapperDemo {
 		 * 基本类型--->字符串
 		 * 		1，基本数据数值+""
 		 * 		2,用String类中的静态方法valueOf(基本类型数值)
-		 * 
+		 * 		3,用Integer静态方法valueOf()(基本类型数值)
 		 * 字符串-->基本类型
 		 * 		1，使用包装类静态方法   xxx parsXxx("xxx类型的字符串")	
 		 * 		  int parseInt("int类型的字符串");
@@ -59,9 +59,39 @@ public class WrapperDemo {
 		/*
 		 * 整数具备这不同的进制
 		 * 
+		 * 十进制--->其他进制
+		 * 		toBinaryString	
+		 * 		toOctalString
+		 * 		toHexString
+		 * 
+		 * 
+		 * 其他进制--->十进制
+		 * 		parseInt("string",radix);
 		 * 
 		 * 
 		 * */
+		//十进制--->其他进制
+//		System.out.println(Integer.toBinaryString(60));//111100
+//		System.out.println(Integer.toOctalString(60));//74
+//		System.out.println(Integer.toHexString(60));//3c
+//		
+//		System.out.println(Integer.toString(60,16));//3c
+		//其他进制--->十进制
+//		
+//		System.out.println(Integer.parseInt("3c",16));//60
+		
+//		Integer a = new Integer("5");
+//		Integer b = new Integer(3);
+//		
+//		System.out.println(a==b);//false
+//		System.out.println(a.equals(b));//true
+		
+//		System.out.println(a.compareTo(b));//1
+		
+		Integer a = new Integer("5");
+		Integer b = new Integer(300);
+		System.out.println(a.compareTo(b));//-1
+		
 	}
 
 }
