@@ -32,16 +32,18 @@ public class WrapperDemo {
 		 * 		  long parsLong("longstring");
 		 * 		  boolean parseBoolean("booleanstring");
 		 * 		  Character没有parse方法
-		 * 		2，
+		 * 		2，如果字符串被Integer进行对象的封装
+		 * 			可以使用另一个静态方法intValue()将一个
+		 * 			Integer对象转成基本数据类型值
 		 * 
 		 * */
-		int num;
+//		int num;
 		
 //		System.out.println(Integer.MAX_VALUE);//2147483647
 //		System.out.println(Integer.MIN_VALUE);//-2147483648
-		num = 4;
+//		num = 4;
 //		System.out.println(Integer.toBinaryString(-6));//11111111111111111111111111111010
-		Integer i = new Integer(5);//
+//		Integer i = new Integer(5);//
 //		int x = Integer.parseInt("123");//123
 //		System.out.println(Integer.parseInt("123") + 1);//整数124
 //		String s = "";
@@ -52,6 +54,14 @@ public class WrapperDemo {
 //			System.out.println(true);//true
 //		}
 		
+//		Integer i = new Integer("123");
+//		System.out.println(i.intValue());//123(整数)
+		/*
+		 * 整数具备这不同的进制
+		 * 
+		 * 
+		 * 
+		 * */
 	}
 
 }
