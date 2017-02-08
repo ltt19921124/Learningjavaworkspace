@@ -18,14 +18,43 @@ public class StringBufferDemo {
 		 * 		既然是一个容器，应该具备哪些功能？
 		 * 			1，添加,(byte 和short类型数据不能存储)
 		 * 				StringBuffer append(data) 默认大小16个字符
+		 * 				StringBuffer insert(index,data);
+		 * 			2，删除	
+		 * 				StringBuffer delete(start,end);包含头，不包含尾	
+		 * 				StringBuffer deleteCharAt(int index);//删除指定位置元素
+		 * 			3,查找：
+		 * 				char charAt(index)
+		 * 				int indexOf(String)
+		 * 				int lastIndexOf(String) 
 		 * 
-		 * 			2，删除		
+		 * 			4,修改
+		 * 				StringBuffer replace(start,end,string);
 		 * 
 		 * 
 		 * 
 		 * */
 //		bufferMethodDemo();
-		bufferMethodDemo_1();
+//		bufferMethodDemo_1();
+		bufferMethodDemo_2();
+	}
+
+	private static void bufferMethodDemo_2() {
+		StringBuffer sb = new StringBuffer("abce");
+//		sb.delete(1, 3);
+//		System.out.println(sb);//ae不包含尾
+		
+		//清空缓冲区
+//		sb.delete(0, sb.length());
+		
+//		sb = new StringBuffer();
+		
+//		System.out.println(sb);//清空缓冲区
+//		sb.replace(1, 2, "nba");
+//		System.out.println(sb);//anbace
+//		sb.replace(1, 2, "nba");
+//		System.out.println(sb);//anbabace
+		sb.setCharAt(2, 'q');//
+		System.out.println(sb);
 	}
 
 	private static void bufferMethodDemo_1() {
