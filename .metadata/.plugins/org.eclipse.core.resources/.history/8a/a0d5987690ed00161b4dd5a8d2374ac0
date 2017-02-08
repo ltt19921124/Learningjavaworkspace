@@ -38,8 +38,6 @@ public class StringMethodDemo {
 		 * 		String[] split(String regex)//涉及到正则表达式			
 		 * 	2,2 将字符串变成字符数组	
 		 * 		char[] toCharArray()
-		 * 	2,3将字符串转成字节数组
-		 * 		byte[] getBytes();
 		 * 
 		 */
 //		stringMethodDemo_1();
@@ -56,20 +54,8 @@ public class StringMethodDemo {
 		}
 		char[] chs = s.toCharArray();
 		for(int i=0;i<chs.length;i++){
-//			System.out.println(chs[i]);
+			System.out.println(chs[i]);
 		}
-		s = "ab你";
-		byte[] bytes = s.getBytes();
-		for(int i =0;i<bytes.length;i++){
-			System.out.println(bytes[i]);//
-			/*
-			98
-			-60
-			-29
-			*/
-		}
-		
-		
 	}
 
 	private static void stringMethodDemo_1() {

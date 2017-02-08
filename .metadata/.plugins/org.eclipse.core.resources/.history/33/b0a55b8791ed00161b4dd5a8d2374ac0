@@ -39,7 +39,7 @@ public class StringMethodDemo {
 		 * 	2,2 将字符串变成字符数组	
 		 * 		char[] toCharArray()
 		 * 	2,3将字符串转成字节数组
-		 * 		byte[] getBytes();
+		 * 		byte[] 		
 		 * 
 		 */
 //		stringMethodDemo_1();
