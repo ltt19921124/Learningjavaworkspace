@@ -80,10 +80,9 @@ public class StringMethodDemo {
 //		System.out.println("Abc".toUpperCase());//ABC
 		String s1 = "java";
 		String s2 = s1.replace('q', 'z');
-//		System.out.println(s1==s2);//true
-//		System.out.println("java".replace('q', 'o'));//java
-		System.out.println("-" + "   ab   c  ".trim() + "-");//-ab   c-
-		//去除字符串两端空格，一般用于用户输入密码时。
+		System.out.println(s1==s2);//true
+		System.out.println("java".replace('q', 'o'));//java
+		
 	}
 
 	private static void stringMethodDemo_1() {
