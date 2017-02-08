@@ -61,25 +61,34 @@ public class StringMethodDemo {
 		 * 		3,3字符串是否以指定字符串开头或者结尾
 		 * 			boolean startsWith()
 		 * 			boolean endsWith()
-		 * 						
+		 * 	4,比较
+		 * 							
 		 * 
 		 * 
 		 */
 //		stringMethodDemo_1();
 //		stringMethodDemo_2();
-		stringMethodDemo_3();
+//		stringMethodDemo_3();
+		stringMethodDemo_4();
+	}
+
+	private static void stringMethodDemo_4() {
+		System.out.println("a".compareTo("A"));//32
+		System.out.println("abc".compareTo("aqz"));//-15
+		System.out.println("Aaa".compareTo("adf"));//-32
+		//对于基本数据类型用的是比较运算符完成，对于对象的比较用的是方法，
 	}
 
 	private static void stringMethodDemo_3() {
-		String s = "abc";
+//		String s = "abc";
 //		System.out.println(s.equals("ABC"));
 //		System.out.println(s.equals("ABC".toLowerCase()));//true
 //		System.out.println(s.equalsIgnoreCase("ABC"));//true
 //		System.out.println(s.contains("bc"));//true
-		String str = "ArrayDemo.java";
-		System.out.println(str.startsWith("Array"));//true
-		System.out.println(str.endsWith(".java"));//true
-		System.out.println(str.contains("Demo"));//true
+//		String str = "ArrayDemo.java";
+//		System.out.println(str.startsWith("Array"));//true
+//		System.out.println(str.endsWith(".java"));//true
+//		System.out.println(str.contains("Demo"));//true
 		
 	}
 

@@ -1,0 +1,12 @@
+package string¿‡;
+
+public class StringObjectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

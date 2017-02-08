@@ -1,0 +1,19 @@
+package string类;
+
+public class StringObjectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * intern()方法，可以对字符串池进行操作(规范化操作)
+		 * 
+		 * */
+		String s1 = "abc";
+		String s2 = "abc";
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package string¿‡;
+
+public class StringObjectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * intern()∑Ω∑®£¨
+		 * 
+		 * */
+		String s1 = "abc";
+		String s2 = "abc";
+		
+		
+	}
+
+}
