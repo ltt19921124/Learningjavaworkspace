@@ -43,7 +43,7 @@ public class StringMethodDemo {
 		 * 	2,4将字符串中的字符转成大小写
 		 * 		String toUperCase();大写		
 		 * 		String toLowerCase();小写
-		 * 	2,5
+		 * 
 		 * 
 		 */
 //		stringMethodDemo_1();
@@ -72,7 +72,7 @@ public class StringMethodDemo {
 			-29
 			*/
 		}
-		System.out.println("Abc".toUpperCase());//ABC
+		System.out.println("Abc".toUpperCase());//
 		
 	}
 

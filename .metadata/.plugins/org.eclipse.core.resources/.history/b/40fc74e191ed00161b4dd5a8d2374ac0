@@ -43,7 +43,7 @@ public class StringMethodDemo {
 		 * 	2,4将字符串中的字符转成大小写
 		 * 		String toUperCase();大写		
 		 * 		String toLowerCase();小写
-		 * 	2,5
+		 * 
 		 * 
 		 */
 //		stringMethodDemo_1();
@@ -65,14 +65,14 @@ public class StringMethodDemo {
 		s = "ab你";
 		byte[] bytes = s.getBytes();
 		for(int i =0;i<bytes.length;i++){
-//			System.out.println(bytes[i]);//
+			System.out.println(bytes[i]);//
 			/*
 			98
 			-60
 			-29
 			*/
 		}
-		System.out.println("Abc".toUpperCase());//ABC
+		System.out.println("Abc".toUpperCase());
 		
 	}
 
