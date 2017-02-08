@@ -1,0 +1,22 @@
+package string类;
+
+public class StringTest {
+
+	/**
+	 * @param args
+	 * 给定一个字符串数组，按照字典顺序从小到大排序
+	 * 
+	 */
+	/*
+	 * 排序
+	 * 1，对数组排序，可以用选择、冒泡
+	 * 2，
+	 * 
+	 * 
+	 * 
+	 * */
+	public static void main(String[] args) {
+		
+	}
+
+}

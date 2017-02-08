@@ -1,0 +1,41 @@
+package string类;
+
+public class StringTest {
+
+	/**
+	 * @param args
+	 * 给定一个字符串数组，按照字典顺序从小到大排序
+	 * 
+	 */
+	/*
+	 * 排序
+	 * 1，对数组排序，可以用选择、冒泡
+	 * 2，for循环比较以及换位
+	 * 3，问题：以前排的是整数，现在是 字符串对象
+	 * 		字符串对象怎么比较呢？对象中提供了字符串比较
+	 * 		的功能
+	 * 
+	 * 
+	 * 
+	 * */
+	public static void main(String[] args) {
+		String[] arr = {"nba","abc","cba","zz","qq"};
+		
+		printArray();
+		sortString();
+		printArray();
+	}
+
+	private static void sortString() {
+		
+	}
+	
+	private static void printArray() {
+		for (int i = 0; i < array.length; i++) {
+			if(i!=arr.length-1)
+				
+		}
+	}
+	
+
+}
