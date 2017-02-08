@@ -30,7 +30,9 @@ public class StringBufferDemo {
 		 * 			4,修改
 		 * 				StringBuffer replace(start,end,string);
 		 * 
-		 * 
+		 * 			增删改查:C(create)U(update)R(read)D(delete)
+		 * 			
+		 * 			
 		 * 
 		 * */
 //		bufferMethodDemo();
@@ -53,8 +55,15 @@ public class StringBufferDemo {
 //		System.out.println(sb);//anbace
 //		sb.replace(1, 2, "nba");
 //		System.out.println(sb);//anbabace
-		sb.setCharAt(2, 'q');//
-		System.out.println(sb);
+//		sb.setCharAt(2, 'q');
+//		System.out.println(sb);//abqe
+//		sb.setLength(2);
+//		System.out.println("sb:" + sb);//sb:ab
+//		System.out.println("len:" + sb.length());//len:2
+//		sb.setLength(10);
+//		System.out.println("sb:" + sb);//sb:abce(空字符)
+//		System.out.println("len:" + sb.length());//len:10
+		System.out.println(sb.reverse());//ecba
 	}
 
 	private static void bufferMethodDemo_1() {

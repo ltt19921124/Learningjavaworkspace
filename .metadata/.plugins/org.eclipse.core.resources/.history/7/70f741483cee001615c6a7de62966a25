@@ -1,0 +1,12 @@
+package StringBuilder;
+
+public class StringBuilderTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
