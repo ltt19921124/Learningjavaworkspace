@@ -43,7 +43,12 @@ public class StringMethodDemo {
 		 * 	2,4将字符串中的字符转成大小写
 		 * 		String toUperCase();大写		
 		 * 		String toLowerCase();小写
-		 * 	2,5
+		 * 	2,5将字符串中的内容进行替换
+		 * 		String replace(char oldch,char newch);
+		 * 		String replace(String s1,String s2);
+		 * 
+		 * 		
+		 * 
 		 * 
 		 */
 //		stringMethodDemo_1();
@@ -72,7 +77,11 @@ public class StringMethodDemo {
 			-29
 			*/
 		}
-		System.out.println("Abc".toUpperCase());//ABC
+//		System.out.println("Abc".toUpperCase());//ABC
+		String s1 = "java";
+		String s2 = s1.replace('q', 'z');
+		System.out.println(s1==s2);//true
+		System.out.println("java".replace('q', 'o'));//java
 		
 	}
 
