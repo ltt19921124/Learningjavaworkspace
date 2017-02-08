@@ -47,9 +47,11 @@ public class StringMethodDemo {
 		 * 		String replace(char oldch,char newch);
 		 * 		String replace(String s1,String s2);
 		 * 
+		 * 	2,6将字符串两端空格去除
+		 * 		String trim()	
+		 * 
+		 * 	2,7将字符串进行连接
 		 * 		
-		 * 
-		 * 
 		 */
 //		stringMethodDemo_1();
 		stringMethodDemo_2();
@@ -82,8 +84,13 @@ public class StringMethodDemo {
 		String s2 = s1.replace('q', 'z');
 //		System.out.println(s1==s2);//true
 //		System.out.println("java".replace('q', 'o'));//java
-		System.out.println("-" + "   ab   c  ".trim() + "-");//-ab   c-
+//		System.out.println("-" + "   ab   c  ".trim() + "-");//-ab   c-
 		//去除字符串两端空格，一般用于用户输入密码时。
+//		System.out.println("abc".concat("kk"));//将字符串连接//abckk
+//		System.out.println("abc" + "kk");//abckk
+		
+		System.out.println(String.valueOf(4) + 1);//41(字符串41),4是字符串
+		System.out.println("" + 4 + 1);//41
 	}
 
 	private static void stringMethodDemo_1() {
