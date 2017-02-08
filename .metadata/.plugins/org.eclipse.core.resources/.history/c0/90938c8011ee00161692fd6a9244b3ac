@@ -1,0 +1,19 @@
+package StringBuffer;
+
+public class StringBufferDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * StringBuffer就是字符串缓冲区
+		 * 用于存储数据的容器
+		 * 
+		 * 
+		 * */
+		
+		
+	}
+
+}

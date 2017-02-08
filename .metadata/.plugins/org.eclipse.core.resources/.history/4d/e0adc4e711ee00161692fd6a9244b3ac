@@ -1,0 +1,33 @@
+package StringBuffer;
+
+public class StringBufferDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * StringBuffer就是字符串缓冲区
+		 * 用于存储数据的容器(容器：数组(固定长度))
+		 * 		特点：
+		 * 			1，长度是可变的
+		 * 			2，可以存储不同类型的数据
+		 * 			3，
+		 * 
+		 * 		既然是一个容器，应该具备哪些功能？
+		 * 			1,添加
+		 * 
+		 * 			2，删除		
+		 * 
+		 * 
+		 * 
+		 * */
+		
+		
+	}
+
+}
+
+
+
+

@@ -1,0 +1,12 @@
+package StringBuffer;
+
+public class StringBufferDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

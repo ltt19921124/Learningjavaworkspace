@@ -66,10 +66,10 @@ public class StringMethodDemo {
 		 * 
 		 * 
 		 */
-//		stringMethodDemo_1();
+		stringMethodDemo_1();
 //		stringMethodDemo_2();
 //		stringMethodDemo_3();
-		stringMethodDemo_4();
+//		stringMethodDemo_4();
 	}
 
 	private static void stringMethodDemo_4() {
@@ -129,18 +129,19 @@ public class StringMethodDemo {
 
 	private static void stringMethodDemo_1() {
 		// int[] arr = {1,3,5,89,0};
-		String s = "abcdae";
+		String s = "abccdae";
 		String s1 = "";
 		System.out.println("length:" + s1.length());//length:0
 		System.out.println("length:" + s.length());// length:6
 		System.out.println("char:" + s.charAt(2));// char:c
 		System.out.println("index:" + s.indexOf('c'));// index:2
+		System.out.println("index:" + s.indexOf('c',3));// index:3
 		System.out.println("index:" + s.indexOf('k'));// index:-1，我们可以根据-1来判断
 		// 该字符或者字符串是否存在,-1表示不存在
 		System.out.println("lastindex:" + s.lastIndexOf('a'));// lastindex:4
 		// int index = Arrays.binarySearch(arr, 6) ;
 		// sSystem.out.println("index:" + index);//-4
-		
+		System.out.println(s.substring(2));//cdae
 		System.out.println("substring:"+s.substring(2,4));//substring:cd
 		System.out.println("substring:"+s.substring(2,s.length()));//substring:cdae
 	}
