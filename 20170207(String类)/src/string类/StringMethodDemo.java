@@ -51,11 +51,36 @@ public class StringMethodDemo {
 		 * 		String trim()	
 		 * 
 		 * 	2,7将字符串进行连接
-		 * 		
+		 * 		String concat(String)
+		 * 3,判断
+		 * 		3,1判断两个字符串内容是否相等？
+		 * 		boolean equals(Object obj);
+		 * 		boolean	equalsIgnoreCase()忽略大小写比较
+		 * 		3,2字符串中是否包含某个字符串
+		 * 			boolean contains(string str);	
+		 * 		3,3字符串是否以指定字符串开头或者结尾
+		 * 			boolean startsWith()
+		 * 			boolean endsWith()
+		 * 						
+		 * 
+		 * 
 		 */
 //		stringMethodDemo_1();
-		stringMethodDemo_2();
+//		stringMethodDemo_2();
+		stringMethodDemo_3();
+	}
 
+	private static void stringMethodDemo_3() {
+		String s = "abc";
+//		System.out.println(s.equals("ABC"));
+//		System.out.println(s.equals("ABC".toLowerCase()));//true
+//		System.out.println(s.equalsIgnoreCase("ABC"));//true
+//		System.out.println(s.contains("bc"));//true
+		String str = "ArrayDemo.java";
+		System.out.println(str.startsWith("Array"));//true
+		System.out.println(str.endsWith(".java"));//true
+		System.out.println(str.contains("Demo"));//true
+		
 	}
 
 	private static void stringMethodDemo_2() {
@@ -103,7 +128,7 @@ public class StringMethodDemo {
 		System.out.println("index:" + s.indexOf('c'));// index:2
 		System.out.println("index:" + s.indexOf('k'));// index:-1，我们可以根据-1来判断
 		// 该字符或者字符串是否存在,-1表示不存在
-		System.out.println("lastindex:" + s.lastIndexOf('a'));// lastindex:0
+		System.out.println("lastindex:" + s.lastIndexOf('a'));// lastindex:4
 		// int index = Arrays.binarySearch(arr, 6) ;
 		// sSystem.out.println("index:" + index);//-4
 		
