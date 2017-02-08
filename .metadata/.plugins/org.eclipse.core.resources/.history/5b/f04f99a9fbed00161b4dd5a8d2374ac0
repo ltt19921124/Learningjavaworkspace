@@ -44,7 +44,7 @@ public class StringTest {
 //		printArray(arr);//[abc,cba,nba,qq,zz]
 	}
 	/**
-	 * ÎÄµµ×¢ÊÍ
+	 * 
 	 * @param str
 	 * @param key
 	 * @return

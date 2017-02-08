@@ -34,7 +34,7 @@ public class StringTest {
 		
 		int count = getKeyStringCount(str,key);
 		
-		System.out.println("count:" + count);
+		System.out.println(count);
 //		String[] arr = {"nba","abc","cba","zz","qq"};
 //		
 //		printArray(arr);//[nba,abc,cba,zz,qq]
@@ -43,13 +43,8 @@ public class StringTest {
 //		
 //		printArray(arr);//[abc,cba,nba,qq,zz]
 	}
-	/**
-	 * ÎÄµµ×¢ÊÍ
-	 * @param str
-	 * @param key
-	 * @return
-	 */
-	public static int getKeyStringCount(String str, String key) {
+
+	private static int getKeyStringCount(String str, String key) {
 		
 		return 0;
 	}
