@@ -1,0 +1,35 @@
+package 集合框架;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CollectionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Collection coll = new ArrayList();//
+		
+		show(coll);
+		
+		
+	}
+	
+	public static void show(Collection coll){
+		//1,添加元素 add方法 
+		coll.add("abc1");
+		coll.add("abc2");
+		coll.add("abc3");
+
+		//删除元素
+//		
+//		coll.remove("abc2");//会改变集合的长度的
+		//清空集合
+//		coll.clear();
+		System.out.println(coll.contains("abc3"));//true
+		
+		System.out.println(coll);//[abc1, abc3]，输出集合中所有的元素
+	}
+	
+}

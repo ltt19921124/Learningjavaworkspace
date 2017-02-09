@@ -1,0 +1,21 @@
+package ¼¯ºÏ¿ò¼Ü;
+
+import java.util.Collection;
+
+public class CollectionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	public static void show(Collection coll){
+		 
+	}
+	
+	
+}
