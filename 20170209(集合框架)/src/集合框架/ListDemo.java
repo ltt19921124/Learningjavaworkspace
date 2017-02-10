@@ -3,6 +3,20 @@ package 集合框架;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * List
+ * 	1.Vector
+ * 
+ * 	2,ArrayList
+ * 
+ * 	3,LinkedList
+ * 		元素有角标，
+ * 
+ * 
+ * 
+ * */
+
+
 public class ListDemo {
 
 	/**
