@@ -1,0 +1,20 @@
+package Set;
+
+/*
+ * Set:元素不可重复，无序
+ * 
+ * 
+ * 
+ * 
+ * */
+
+public class SetDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

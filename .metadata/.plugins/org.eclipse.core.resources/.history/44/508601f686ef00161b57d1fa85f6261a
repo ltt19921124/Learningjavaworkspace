@@ -1,0 +1,12 @@
+package Vector;
+
+public class LinkedListTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

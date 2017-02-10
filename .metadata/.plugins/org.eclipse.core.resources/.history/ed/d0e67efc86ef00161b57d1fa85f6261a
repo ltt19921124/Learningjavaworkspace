@@ -1,0 +1,18 @@
+package Vector;
+/*
+ * 使用linkedlist模拟一个堆栈或者队列数据结构
+ * 
+ * 
+ * 
+ * 
+ * */
+public class LinkedListTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
