@@ -7,7 +7,7 @@ import java.util.Iterator;
  * Set:元素不可重复，无序
  * 		Set接口中的方法和Collection一致
  * 		1，HashSet:内部数据结构是哈希表，不同步
- * 			哈希表：其实里面还是数组，哈希算法对数组进行了
+ * 			哈希表：
  * 
  * 		2，TreeSet:
  * 
