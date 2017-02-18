@@ -25,7 +25,23 @@ public class IODemo {
 		 * 
 		 * 
 		 * */
+		
+		/*
+		 * 创建一个可以往文件中写入字符数据的字符输出流对象
+		 * 要在创建对象时，明确该文件的目的地
+		 * 如果文件存在，则会自动创建
+		 * 如果不存在，则会被覆盖
+		 * */
 		FileWriter fw = new FileWriter("demo.txt");
+		
+		//write()方法写入数据
+		fw.write("abcde");
+		fw.write("c");
+		/*
+		 * 进行刷新，然后立即把数据写入到目的地
+		 * */
+		fw.flush();
+//		fw.close();
 		
 		
 		
