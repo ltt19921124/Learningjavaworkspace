@@ -26,8 +26,6 @@ public class ReadDemo {
 		
 		int ch = fr.read();
 		
-		System.out.println(ch);
-		fr.close();
 	}	
 
 }

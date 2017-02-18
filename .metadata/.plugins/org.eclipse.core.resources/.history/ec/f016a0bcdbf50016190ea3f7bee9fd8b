@@ -24,10 +24,8 @@ public class ReadDemo {
 		
 		//用read()方法读取字符
 		
-		int ch = fr.read();
 		
-		System.out.println(ch);
-		fr.close();
+		
 	}	
 
 }
