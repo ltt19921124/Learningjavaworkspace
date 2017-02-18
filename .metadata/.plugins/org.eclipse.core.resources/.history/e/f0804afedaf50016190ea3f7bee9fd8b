@@ -1,0 +1,15 @@
+package IO;
+
+//将数据输出到控制台，用输出流
+//FileReader()
+
+public class ReadDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}	
+
+}
