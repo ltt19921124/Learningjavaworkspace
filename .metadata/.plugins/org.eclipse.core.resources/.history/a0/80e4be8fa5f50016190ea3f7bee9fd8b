@@ -1,0 +1,35 @@
+package IO;
+
+public class IODemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 输入输出流：
+		 * 输入：把数据从设备移动到内存
+		 * 输出：将内存中的数据移动到存储设备
+		 * 
+		 * 字节流两个顶层父类
+		 * 1,InputStream
+		 * 2,Outputstream
+		 * 
+		 * 字符流两个顶层父类
+		 * 1,Reader 2,Writer
+		 * 
+		 * */
+		
+		
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
