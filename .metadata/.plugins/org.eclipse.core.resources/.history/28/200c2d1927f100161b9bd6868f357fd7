@@ -1,0 +1,47 @@
+package 泛型;
+
+/*
+ * 		jdk1.5出现的新特性
+ * 		安全新特性，为了提高安全性。
+ * 
+ * 		好处：
+ * 			1，将运行时期的问题转到了编译时期
+ * 			2，避免了强制转换的麻烦
+ * 		<>什么时候用？
+ * 			当操作的引用数据类型不确定的时候，就使用<>,将
+ * 			要操作的引用数据类型传入即可。其实<>就是一个用于
+ * 			接收具体引用数据类型的参数范围。
+ * 
+ * 			在程序中，只要用到了带有<>的类或者接口，就要明确
+ * 			传入的数据类型
+ * 
+ * 			泛型技术用于编译时期使用，确保了类型的安全
+ * 			运行时，会将泛型去掉。生成的class文件是不带泛型的，这叫做
+ * 			泛型擦除。
+ * 
+ * */
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class GenericDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		ArrayList<String> al = new ArrayList<String>();//泛型
+		
+		al.add("haha");//public boolean add(Object obj)
+		al.add("hahaha");
+//		al.add(4);//al.add(new Integer(4))
+		Iterator<String> it = al.iterator();
+		
+		while(it.hasNext()){
+			String str = it.next();
+			System.out.println(str);
+		}
+	}
+
+}

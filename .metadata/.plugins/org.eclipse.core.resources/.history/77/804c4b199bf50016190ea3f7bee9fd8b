@@ -1,0 +1,12 @@
+package Math;
+
+public class MathDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

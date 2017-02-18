@@ -48,7 +48,7 @@ public class StringTest {
 //		int count = getKeyStringCount(str,key);
 //		int count = getKeyStringCount_2(str,key);
 //		
-//		System.out.println("count:" + count);
+////		System.out.println("count:" + count);
 //		String[] arr = {"nba","abc","cba","zz","qq"};
 //		
 //		printArray(arr);//[nba,abc,cba,zz,qq]
@@ -56,11 +56,13 @@ public class StringTest {
 //		sortString(arr);
 //		
 //		printArray(arr);//[abc,cba,nba,qq,zz]
-		String s = "    ab   c   ";
-		
-		s = myTrim(s);
-		
-		System.out.println("-" + s + "-");//-ab   c-
+//		String s = "    ab   c   ";
+//		
+//		s = myTrim(s);
+//		
+//		System.out.println("-" + s + "-");//-ab   c-
+		String s = "abccab";
+		System.out.println(s.indexOf("ab", 0));
 	}
 	private static String myTrim(String s) {
 		

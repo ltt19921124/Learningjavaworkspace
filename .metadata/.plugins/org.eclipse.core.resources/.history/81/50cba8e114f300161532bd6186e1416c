@@ -1,0 +1,23 @@
+package 集合框架;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Map<Integer,String> map = new HashMap();
+		method(map);
+	}
+	
+	public static void method(Map<Integer,String>map){
+		//添加元素
+		System.out.println(map.put(8,"wangcai"));
+		
+		
+		
+	}
+}
