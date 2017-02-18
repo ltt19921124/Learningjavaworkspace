@@ -4,7 +4,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class IODemo {
-
+	
+	private static final String LINE_SEPARATOR = System.getProperty("line.separator");
 	/**
 	 * @param args
 	 */
@@ -31,17 +32,22 @@ public class IODemo {
 		 * 要在创建对象时，明确该文件的目的地
 		 * 如果文件存在，则会自动创建
 		 * 如果不存在，则会被覆盖
+		 * 如果构造函数加入true，就会续写
 		 * */
 		FileWriter fw = new FileWriter("demo.txt");
 		
+		
 		//write()方法写入数据
-		fw.write("abcde");
-		fw.write("c");
+//		fw.write("abcde" + LINE_SEPARATOR +"nhaha");
+//		fw.close();
 		/*
 		 * 进行刷新，然后立即把数据写入到目的地
 		 * */
-		fw.flush();
-//		fw.close();
+//		fw.flush();
+		fw.write("ah");
+		fw.write("hujkk");
+		
+		fw.close();
 		
 		
 		
