@@ -10,8 +10,21 @@ public class MapDemo {
 	 */
 	public static void main(String[] args) {
 		Map<Integer,String> map = new HashMap<Integer, String>();
-		method(map);
+//		method(map);
 	}
+	
+	public static void method_1(Map<Integer, String>map){
+		
+		map.put(8, "wan");
+		map.put(2, "zhaoliu");
+		map.put(7, "xiao");
+		map.put(6, "wancai");
+		//取出map中的所有元素，
+		//通过keyset方法获取所有的map中所有的键所在的Set集合，再通过
+		//Set迭代器获取每一个键，再对每一个键取出对于的值即可。
+		
+	}
+	
 	
 	public static void method(Map<Integer,String>map){
 		//添加元素
@@ -19,6 +32,8 @@ public class MapDemo {
 //		System.out.println(map.put(8,"xiao"));//wangcai，存相同键，值会覆盖
 		map.put(2,"zhang");
 		map.put(7, "zhao");
+//		int i = map.size();
+//		System.out.println("size:" + i);
 		
 		System.out.println(map);//{8=wangcai}
 		
@@ -30,8 +45,17 @@ public class MapDemo {
 		
 		//获取
 //		System.out.println("get:" + map.get(8));//get:xiao
-		System.out.println("get:" + map.get(6));//
+//		System.out.println("get:" + map.get(6));//
 		
 		
 	}
 }
+
+
+
+
+
+
+
+
+
