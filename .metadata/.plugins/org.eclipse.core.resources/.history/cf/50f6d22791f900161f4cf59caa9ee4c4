@@ -1,0 +1,17 @@
+package system;
+
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		double i = 9.1;
+		i = Math.ceil(i);
+		int k;
+		k = (int)i;
+//		i = i/2;
+		System.out.println(k);
+	}
+
+}

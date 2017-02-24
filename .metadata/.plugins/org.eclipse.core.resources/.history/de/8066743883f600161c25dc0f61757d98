@@ -1,0 +1,12 @@
+package GUI;
+
+public class binaryTree {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

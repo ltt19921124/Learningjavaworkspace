@@ -11,8 +11,8 @@ public class CollectionDemo {
 	public static void main(String[] args) {
 		Collection coll = new ArrayList();
 		Collection c1 = new ArrayList();//
-		Collection c2 = new ArrayList();
-		show(c1,c2);
+		
+		show(c1,coll);
 		
 		
 	}
@@ -28,10 +28,10 @@ public class CollectionDemo {
 //		coll.remove("abc2");//会改变集合的长度的
 		//清空集合
 //		coll.clear();
-		System.out.println(coll.contains("abc3"));//true
+//		System.out.println(coll.contains("abc3"));//true
 //		System.out.println(coll.isEmpty());//true
 		
-		System.out.println(coll);//[abc1, abc3]，输出集合中所有的元素
+//		System.out.println(coll);//[abc1, abc3]，输出集合中所有的元素
 		
 		
 	}
@@ -51,6 +51,7 @@ public class CollectionDemo {
 		
 		//removeAll
 //		boolean b = c1.removeAll(c2);//将相同的元素从调用removeAll的集合中删除
+//		System.out.println(b);
 //		System.out.println("removeAll:" + b);
 //		System.out.println("c1:" + c1);//
 		//containsAll

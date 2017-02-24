@@ -1,0 +1,13 @@
+package GUI;
+
+public class GUIDemo {
+
+	/**
+	 * 图形用户界面
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

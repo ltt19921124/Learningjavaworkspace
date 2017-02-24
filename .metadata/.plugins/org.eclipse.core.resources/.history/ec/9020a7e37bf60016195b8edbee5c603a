@@ -1,0 +1,22 @@
+package GUI;
+
+public class GUIDemo {
+
+	/**
+	 * 图形用户界面
+	 * AWT包和Swing包中
+	 * 
+	 * AWT(抽象窗口工具包):重量级控件，要调用本地方法
+	 * 
+	 * Swing:在AWT的基础上，建立了一套图形界面系统，轻量级控件，完全
+	 * 由java实现，增强了移植性，属于轻量级控件
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+}

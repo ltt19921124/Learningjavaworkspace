@@ -28,6 +28,8 @@ public class ReadDemo {
 		
 		System.out.println(ch);
 		fr.close();
+		
+		
 	}	
 
 }
