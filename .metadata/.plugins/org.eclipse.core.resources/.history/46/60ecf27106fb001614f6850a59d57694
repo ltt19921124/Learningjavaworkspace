@@ -13,7 +13,6 @@ public class MapDemo {
 	public static void main(String[] args) {
 		Map<Integer,String> map = new HashMap<Integer, String>();
 //		method(map);
-		method_1(map);
 	}
 	
 	public static void method_1(Map<Integer, String>map){
@@ -30,8 +29,7 @@ public class MapDemo {
 		
 		while(it.hasNext()){
 			Integer key = it.next();
-			String value = map.get(key);
-			System.out.println(key + ":" + value);
+			System.out.println(key);
 		}
 		
 	}

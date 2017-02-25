@@ -1,9 +1,7 @@
 package 集合框架;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.Set;
 
 public class MapDemo {
 
@@ -13,7 +11,6 @@ public class MapDemo {
 	public static void main(String[] args) {
 		Map<Integer,String> map = new HashMap<Integer, String>();
 //		method(map);
-		method_1(map);
 	}
 	
 	public static void method_1(Map<Integer, String>map){
@@ -25,14 +22,6 @@ public class MapDemo {
 		//取出map中的所有元素，
 		//通过keyset方法获取所有的map中所有的键所在的Set集合，再通过
 		//Set迭代器获取每一个键，再对每一个键取出对于的值即可。
-		Set<Integer> keySet = map.keySet();
-		Iterator<Integer> it = keySet.iterator();
-		
-		while(it.hasNext()){
-			Integer key = it.next();
-			String value = map.get(key);
-			System.out.println(key + ":" + value);
-		}
 		
 	}
 	
