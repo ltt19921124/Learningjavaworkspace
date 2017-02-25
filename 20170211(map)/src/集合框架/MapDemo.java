@@ -13,9 +13,43 @@ public class MapDemo {
 	public static void main(String[] args) {
 		Map<Integer,String> map = new HashMap<Integer, String>();
 //		method(map);
-		method_1(map);
+		method_2(map);
 	}
 	
+	private static void method_2(Map<Integer, String> map) {
+		map.put(8, "wan");
+		map.put(2, "zhaoliu");
+		map.put(7, "xiao");
+		map.put(6, "wancai");
+		
+		//values方法
+		
+//		int value = map.size();
+//		System.out.println(value);
+		
+		/*
+		 *通过Map转成set就可以迭代
+		 * 找到另一个方法，entrySet
+		 * 该方法将键和值的映射关系作为对象存储到了Set集合中，而这个
+		 * 映射关系的类型就是Map,Entry类型()结婚证。
+		 * enTry理解：
+		 * 
+		 * 将键和值封装成一个对象，通过Map.Entry对象的getKey，getValue
+		 * 获取其中的键和值。
+		 * 
+		 * */
+//		Set<Map.Entry<Integer, String>> entrySet = map.entrySet();
+//		Iterator<Map.Entry<Integer, String>> it = entrySet.iterator();
+//		
+//		while(it.hasNext()){
+//			Map.Entry<Integer, String> me = it.next();
+//			Integer key = me.getKey();
+//			String value = me.getValue();
+//			System.out.println(key + ":::" + value);
+//		}
+		
+	}
+
 	public static void method_1(Map<Integer, String>map){
 		
 		map.put(8, "wan");
@@ -27,12 +61,13 @@ public class MapDemo {
 		//Set迭代器获取每一个键，再对每一个键取出对于的值即可。
 		Set<Integer> keySet = map.keySet();
 		Iterator<Integer> it = keySet.iterator();
-		
+		/*
 		while(it.hasNext()){
 			Integer key = it.next();
 			String value = map.get(key);
 			System.out.println(key + ":" + value);
 		}
+		*/
 		
 	}
 	
