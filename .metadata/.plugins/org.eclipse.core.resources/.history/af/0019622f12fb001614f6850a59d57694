@@ -1,0 +1,16 @@
+package 集合框架;
+
+public class HashMapDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		/*
+		 * 将学生对象和学生归属地存储到map集合中。
+		 * 
+		 * 
+		 * */
+	}
+
+}

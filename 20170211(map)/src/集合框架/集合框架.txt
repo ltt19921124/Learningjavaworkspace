@@ -19,4 +19,15 @@
 			value get(key);通过键获取值，如果没有该值返回null。
 							当然可以用稿返回null来判断是否包含指定键。
 			int size();获取键值对的个数。				
-							
+		
+		Map常用子类
+			|--HashTable(jdk 1.0):内部结构是哈希表，是同步的。不允许null作为键，null作为值
+				|--properties:用来存储键值对型的配置文件信息，可以和IO技术相结合
+			|--HashMap：内部结构是哈希表，是不同步的，允许null作为键，允许null作为值
+			|--TreeMap：内部结构是二叉树，不同步，可对Map的
+			|
+		
+		
+		
+		
+						

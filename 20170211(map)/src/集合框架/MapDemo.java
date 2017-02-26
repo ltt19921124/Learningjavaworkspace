@@ -1,5 +1,6 @@
 package 集合框架;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -22,6 +23,13 @@ public class MapDemo {
 		map.put(7, "xiao");
 		map.put(6, "wancai");
 		
+		Collection<String> values = map.values();
+		
+		Iterator<String> it2 = values.iterator();
+		while(it2.hasNext()){
+			System.out.println(it2.next());
+		}
+ 		
 		//values方法
 		
 //		int value = map.size();
