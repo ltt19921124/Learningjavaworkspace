@@ -1,0 +1,12 @@
+package สýื้;
+
+public class TestForeach {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package 数组;
+
+public class TestForeach {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String[] books = {"轻量级J2EE企业应用实战",};
+	}
+
+}

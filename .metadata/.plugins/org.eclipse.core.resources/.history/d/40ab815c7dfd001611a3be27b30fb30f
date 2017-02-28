@@ -1,0 +1,13 @@
+
+public class AutoConversion {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a = 6;
+		float f = a;
+		System.out.println(f);//6.0
+	}
+
+}

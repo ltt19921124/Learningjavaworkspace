@@ -1,0 +1,14 @@
+
+public class RandomStr {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//定义一个字符串
+		String result = "";
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class HelloWorld {
+
+	/**
+	 * @param args
+	 * day01
+	 * 0228 1248
+	 */
+	public static void main(String[] args) {
+		
+		System.out.println("Hello java");
+	}
+
+}

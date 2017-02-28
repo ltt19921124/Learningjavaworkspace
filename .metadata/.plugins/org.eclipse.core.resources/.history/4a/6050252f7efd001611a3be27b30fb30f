@@ -1,0 +1,20 @@
+
+public class NarrorConversion {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int iValue = 233;
+		//强制把一个int类型的值转为byte型的值
+		byte bValue = (byte) iValue;
+		System.out.println(bValue);//-23
+		
+		double dValue = 3.98;
+		
+		int tol = (int)dValue;
+		System.out.println(tol);//
+		
+	}
+
+}
