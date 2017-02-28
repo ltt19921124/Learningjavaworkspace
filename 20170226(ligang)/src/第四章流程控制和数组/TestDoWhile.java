@@ -6,7 +6,7 @@ public class TestDoWhile {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int count = 1;
+//		int count = 1;
 //		do{
 //			System.out.println(count);
 //			count++;
