@@ -50,4 +50,11 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="集合框架.HashMapDemo"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="第五章面向对象.TestConstructor"/>
+<fullyQualifiedTypeName name="第五章面向对象.ConstructorOverload"/>
+<fullyQualifiedTypeName name="第五章继承.SubClass"/>
+<fullyQualifiedTypeName name="第五章多态.BaseClass"/>
 </qualifiedTypeNameHistroy>
