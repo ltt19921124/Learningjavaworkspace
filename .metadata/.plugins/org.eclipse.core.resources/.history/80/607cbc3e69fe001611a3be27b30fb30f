@@ -1,0 +1,17 @@
+package µÚÎåÕÂ¼Ì³Ğ;
+
+public class Ostrich extends Bird {
+
+	/**
+	 * @param args
+	 */
+	
+	public void fly(){
+		System.out.println("ÅÜ");
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

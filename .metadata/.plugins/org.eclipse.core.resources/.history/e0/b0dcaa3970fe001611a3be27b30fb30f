@@ -1,0 +1,9 @@
+package µÚÎåÕÂ¼Ì³Ğ;
+
+public class Creature {
+
+	public Create(){
+		System.out.println("Create ");
+	}
+
+}

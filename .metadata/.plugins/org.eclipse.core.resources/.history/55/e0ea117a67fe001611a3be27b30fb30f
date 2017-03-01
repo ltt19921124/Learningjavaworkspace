@@ -1,0 +1,12 @@
+package 第五章面向对象;
+
+public class Apple {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

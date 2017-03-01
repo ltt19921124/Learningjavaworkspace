@@ -15,7 +15,9 @@ public class TestPerson {
 		p.setName("李刚");
 		System.out.println("成功设置name属性时：" + p.getName());
 		
-		
+		/*
+		 * javac -d . hello.java
+		 * */
 	}
 
 }

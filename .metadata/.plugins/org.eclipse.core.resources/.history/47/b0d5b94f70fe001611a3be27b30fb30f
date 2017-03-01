@@ -1,0 +1,9 @@
+package 第五章继承;
+
+class Creature {
+
+	public Creature(){
+		System.out.println("Create 无参构造器");
+	}
+
+}

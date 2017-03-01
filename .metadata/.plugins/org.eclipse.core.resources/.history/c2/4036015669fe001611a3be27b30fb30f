@@ -1,0 +1,18 @@
+package 第五章继承;
+
+public class Ostrich extends Bird {
+
+	/**
+	 * @param args
+	 */
+	
+	public void fly(){
+		System.out.println("跑");
+	}
+	
+	public static void main(String[] args) {
+		Ostrich os = new Ostrich();
+		os.fly();//调用子类的方法
+	}
+
+}
