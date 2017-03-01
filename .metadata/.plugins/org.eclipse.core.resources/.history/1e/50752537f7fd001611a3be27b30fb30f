@@ -1,0 +1,16 @@
+package 第五章面向对象;
+
+public class Person1 {
+
+	/**.
+	 * 权限由小到大：private-->default-->protected-->public 
+	 * 
+	 * deafault(包级访问权限):
+	 * 
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
