@@ -1,0 +1,16 @@
+package duoxiancheng;
+
+class Ticket implements Runnable{
+	
+}
+
+public class TicketDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

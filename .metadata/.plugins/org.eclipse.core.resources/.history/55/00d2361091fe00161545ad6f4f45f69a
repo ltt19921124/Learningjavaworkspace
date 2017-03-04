@@ -1,0 +1,38 @@
+package DuoTai;
+
+class 毕姥爷{
+	void 讲课(){
+		System.out.println("管理");
+	}
+	void 钓鱼(){
+		System.out.println("钓鱼");
+	}
+}
+
+class 毕老师 extends 毕姥爷{
+	void 讲课(){
+		System.out.println("java");
+	}
+	void 看电影(){
+		System.out.println("看电影");
+	}
+}
+
+class DuoTaiDemo {
+
+	/**
+	 * @param args
+	 */
+	class 毕姥爷{
+		void 讲课(){
+			System.out.println("管理");
+		}
+		void 钓鱼(){
+			System.out.println("钓鱼");
+		}
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

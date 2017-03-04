@@ -1,0 +1,24 @@
+package duoxiancheng;
+
+class Ticket implements Runnable{
+	private int num = 100;
+	
+	public void run(){
+		while(true){
+			if(num>0){
+				System.out.println(Thread.currentThread().getName()+"..sale"+num--);
+			}
+		}
+	}
+}
+
+class TicketDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
