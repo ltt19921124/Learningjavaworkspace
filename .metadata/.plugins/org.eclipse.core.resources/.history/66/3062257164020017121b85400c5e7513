@@ -1,0 +1,18 @@
+package ¶àÏß³Ì·è¿ñjava;
+
+public class TestYield extends Thread{
+	public TestYield(){
+		
+	}
+	public TestYield(String name){
+		super(name);	
+	}
+	public void run(){
+		
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}
