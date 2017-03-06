@@ -1,0 +1,13 @@
+package ¶àÏß³ÌMars;
+
+public class Test {
+
+	
+	public static void main(String[] args) {
+		
+		FirstThread ft = new FirstThread();
+		
+		ft.start();
+	}
+
+}

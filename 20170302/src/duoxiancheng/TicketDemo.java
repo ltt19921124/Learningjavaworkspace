@@ -1,11 +1,11 @@
 package duoxiancheng;
 
 class Ticket implements Runnable{
-	private int num = 100;
+	private int num = 200;
 	Object obj = new Object();
 	public void run(){
 		while(true){
-			synchronized(obj){
+			synchronized/*同步，在java中用同步代码块解决同步问题*/(obj){
 				if(num>0){
 					try{
 						Thread.sleep(10);
@@ -31,9 +31,13 @@ class TicketDemo {
 	 * 
 	 * 在java中用同步代码块可以解决这个问题，synchronized
 	 * 
-	 * 同步代码块：synchronized{
+	 * 同步代码块：synchronized(对象){//对象就是一个标记
 	 * 				
 	 * 			  }
+	 * 将多条操作共享数据的线程代码封装起来，当有线程在执行这些代码的
+	 * 时候，其他线程不可以参与运算。
+	 * 必须要当前线程把这些代码都执行完成后，其他的线程才可以运算。
+	 * 
 	 * 
 	 */
 	public static void main(String[] args) {

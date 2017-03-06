@@ -1,0 +1,10 @@
+package ∂‡œﬂ≥ÃMars;
+
+public class FirstThread extends Thread{
+
+	
+	public static void main(String[] args) {
+
+	}
+
+}
