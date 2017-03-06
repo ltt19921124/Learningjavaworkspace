@@ -2,14 +2,18 @@ package duoxiancheng;
 
 class Ticket implements Runnable{
 	private int num = 100;
-	
+	Object obj = new Object();
 	public void run(){
 		while(true){
-			if(num>0){
-				try{
-					Thread.sleep(10);
-				}catch(InterruptedException e){}
-				System.out.println(Thread.currentThread().getName()+"..sale"+num--);
+			synchronized(obj){
+				if(num>0){
+					try{
+						Thread.sleep(10);
+					}catch(InterruptedException e){
+						
+					}
+					System.out.println(Thread.currentThread().getName()+"..sale"+num--);
+				}
 			}
 		}
 	}
@@ -20,6 +24,17 @@ class TicketDemo {
 	/**
 	 * @param args
 	 * 线程：concurrency
+	 * 线程安全问题出现的原因：
+	 * 1，多个线程同时在操作共享数据
+	 * 2，操作共享数据的线程代码有多条
+	 * 
+	 * 
+	 * 在java中用同步代码块可以解决这个问题，synchronized
+	 * 
+	 * 同步代码块：synchronized{
+	 * 				
+	 * 			  }
+	 * 
 	 */
 	public static void main(String[] args) {
 		Ticket t = new Ticket();
