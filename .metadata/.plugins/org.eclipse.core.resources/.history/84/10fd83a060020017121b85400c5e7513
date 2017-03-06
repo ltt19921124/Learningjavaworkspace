@@ -5,7 +5,7 @@ public class FirstThread extends Thread{
 	private int i;
 	public void run(){
 		for (; i < 100; i++) {
-			System.out.println(getName() + " " + i);
+			System.out.println(getName() + "" + i);
 		}
 	}
 	
