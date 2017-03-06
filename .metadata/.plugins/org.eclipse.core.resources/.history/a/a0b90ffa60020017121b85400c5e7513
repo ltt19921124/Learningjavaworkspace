@@ -1,0 +1,12 @@
+package ¶àÏß³Ì·è¿ñjava;
+
+public class SecondThread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
