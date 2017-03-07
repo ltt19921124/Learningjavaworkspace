@@ -38,7 +38,6 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -57,4 +56,6 @@
 <fullyQualifiedTypeName name="第五章面向对象.ConstructorOverload"/>
 <fullyQualifiedTypeName name="第五章继承.SubClass"/>
 <fullyQualifiedTypeName name="第五章多态.BaseClass"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
 </qualifiedTypeNameHistroy>
