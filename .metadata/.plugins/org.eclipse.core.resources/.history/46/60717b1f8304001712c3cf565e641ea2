@@ -1,0 +1,12 @@
+package Ïß³Ì;
+
+public class Account {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

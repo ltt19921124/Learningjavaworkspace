@@ -4,6 +4,7 @@ public class ThreadDemo {
 
 	/**
 	 * @param args
+	 * @throws InterruptedException 
 	 */
 	/*
 	 *获取线程名称：Thread.currentThread.getNmae():Thread-0
@@ -14,6 +15,7 @@ public class ThreadDemo {
 		Demo d2 = new Demo("wangcai");
 		d1.start();
 		d2.start();
+//		Thread.sleep(1000);
 		System.out.println("over:"+Thread.currentThread().getName());
 	}
 

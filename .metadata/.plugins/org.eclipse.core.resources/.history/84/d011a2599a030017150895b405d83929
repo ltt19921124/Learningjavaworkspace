@@ -1,0 +1,17 @@
+package duoxiancheng;
+
+/*
+ * 两个储户，每个都去银行存钱，每次100，分别存三次
+ *  
+ * */
+
+public class BankDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

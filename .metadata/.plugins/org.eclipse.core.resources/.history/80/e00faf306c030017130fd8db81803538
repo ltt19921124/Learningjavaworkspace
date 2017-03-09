@@ -1,0 +1,28 @@
+package duoxiancheng;
+
+public class TestEquals {
+
+	public static void main(String[] args){
+		Cat c1 = new Cat("a",1,2);
+		Cat c2 = new Cat("a",1,2);
+		
+		System.out.println(c1.equals(c2));
+	}
+}
+
+class Cat{
+	String color;
+	int height,weight;
+	public Cat(String color,int height,int weight){
+		this.color = color;
+		this.height = height;
+		this.weight = weight;
+	}
+	public boolean equals(Object obj){
+		return true;
+	}
+}
+
+
+
+

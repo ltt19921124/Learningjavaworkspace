@@ -1,0 +1,12 @@
+package duoxiancheng;
+
+public class BankDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

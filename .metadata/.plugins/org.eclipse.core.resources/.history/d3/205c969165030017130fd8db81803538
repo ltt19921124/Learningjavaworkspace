@@ -1,0 +1,17 @@
+package duoxiancheng;
+
+public class TestToString {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		System.out.println(d);
+	}
+
+}
+
+class Dog{
+	
+}

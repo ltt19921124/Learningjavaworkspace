@@ -13,5 +13,7 @@ public class TestToString {
 }
 
 class Dog{
-	
+	public String toString(){
+		return "cool dog!";
+	}
 }
