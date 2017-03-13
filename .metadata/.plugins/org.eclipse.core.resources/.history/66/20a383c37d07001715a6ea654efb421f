@@ -1,0 +1,12 @@
+package review;
+
+public class whileTest2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

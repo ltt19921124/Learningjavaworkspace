@@ -1,0 +1,21 @@
+package review;
+
+public class switchTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int week  =1;
+		switch(week){
+			default:
+				break;
+			case 1:
+				System.out.println(week + "对应星期一");
+			case 2:
+				System.out.println(week + "对应星期二");
+			
+		}
+	}
+
+}

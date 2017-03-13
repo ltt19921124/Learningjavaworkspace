@@ -1,0 +1,17 @@
+package day04;
+
+public class BreakContinueDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		for (int x = 0;x < 3;x++){
+			if (x == 1){
+				break;
+			}
+			System.out.println("x=" + x);
+		}
+	}
+
+}

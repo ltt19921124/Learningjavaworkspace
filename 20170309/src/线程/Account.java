@@ -11,6 +11,9 @@ public class Account {
 	public Account(String accountNo,double balance){
 		this.accountNo = accountNo;
 		this.balance = balance;
+		for (int i = 0; i < 10; i++){
+			System.out.println(i);
+		}
 	}
 	
 }
