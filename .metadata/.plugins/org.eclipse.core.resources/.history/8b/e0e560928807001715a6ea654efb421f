@@ -1,0 +1,16 @@
+package day04;
+
+public class FunctionDemo4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		add(5,8,9);
+	}
+
+	private static int add(int i, int j, int k) {
+		return i + j + k;
+	}
+
+}

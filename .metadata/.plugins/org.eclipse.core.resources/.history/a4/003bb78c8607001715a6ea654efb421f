@@ -1,0 +1,23 @@
+package day04;
+
+public class FunctionDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		draw(5,6);
+	}
+
+	private static void draw(int i, int j) {
+		for (int x = 1;x < i;x++){
+			for (int y = 1;y <= j;x++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		return;
+	}
+	
+	
+}

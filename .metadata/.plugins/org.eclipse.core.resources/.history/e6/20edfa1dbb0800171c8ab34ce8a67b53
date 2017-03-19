@@ -1,0 +1,12 @@
+package day08;
+
+public class ArrayTools {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

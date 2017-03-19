@@ -1,0 +1,37 @@
+package day08;
+
+//饿汉式
+class Single{
+	
+	private static Single s = new Single();
+	private Single(){
+		
+	}
+	public static Single getInstance(){
+		return s;
+	}
+}
+
+class Single_1{
+	private static Single_1 s = new Single_1();
+	
+	private Single_1(){
+		
+	}
+	public static Single_1 getInstance(){
+		return s;
+	}
+}
+
+public class singleDemo {
+
+	/**
+	 * @param args
+	 * 单例设计模式
+	 * 
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

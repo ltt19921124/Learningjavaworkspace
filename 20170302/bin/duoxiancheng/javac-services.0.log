@@ -1,3 +1,2 @@
-INFO	?	main	2017-03-07T23:34:46.396Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
-INFO	?	main	2017-03-07T23:34:46.808Z	org.javacs.JavaLanguageServer#doLint	Lint [e:\workspace\20170302\src\duoxiancheng\ThreadDemo.java]
-INFO	?	main	2017-03-07T23:34:46.834Z	org.javacs.JavaLanguageServer#doLint	Lint [e:\workspace\20170302\src\duoxiancheng\Demo.java]
+INFO	?	main	2017-03-13T07:07:00.436Z	org.javacs.Main#connectToNode	Connected to parent using socket on port 55282
+INFO	?	main	2017-03-13T07:07:00.846Z	org.javacs.JavaLanguageServer#doLint	Lint [e:\workspace\20170302\src\duoxiancheng\ThreadDemo.java]

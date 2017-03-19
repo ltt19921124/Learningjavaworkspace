@@ -1,0 +1,14 @@
+package day10;
+
+
+
+class DuotaiDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

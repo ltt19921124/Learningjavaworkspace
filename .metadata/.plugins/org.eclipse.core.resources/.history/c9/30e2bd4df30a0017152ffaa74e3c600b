@@ -1,0 +1,12 @@
+package day12jar;
+
+public class JarDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

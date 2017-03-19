@@ -1,0 +1,13 @@
+package day08;
+
+public class ArrayToolDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = {3,6,7,89,90};
+		ArrayTools tool = new ArrayTools();
+	}
+
+}

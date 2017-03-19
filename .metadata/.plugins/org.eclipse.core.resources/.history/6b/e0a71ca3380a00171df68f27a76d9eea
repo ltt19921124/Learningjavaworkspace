@@ -1,0 +1,54 @@
+package day10;
+
+class BaseClass{
+	public int book = 6;
+	public void base(){
+		System.out.println("父类普通方法");
+	}
+	public void test(){
+		System.out.println("父类被覆盖方法");
+	}
+}
+
+class subClass extends BaseClass{
+	public String book = "string";
+	public void tset(){
+		System.out.println("子类覆盖父类的方法");
+	}
+	public void sub(){
+		System.out.println("子类普通方法");
+	}
+}
+
+class DuotaiDemo4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		BaseClass b = new BaseClass();
+		System.out.println(b.book);
+		b.base();
+		b.test();
+		subClass sc = new subClass();
+		System.out.println(sc.book);
+		
+		sc.base();
+		sc.test();
+		
+		BaseClass p = new subClass();
+		System.out.println(p.book);
+		p.base();
+		p.test();
+		p.sub();
+	}
+
+}
+
+
+
+
+
+
+
+

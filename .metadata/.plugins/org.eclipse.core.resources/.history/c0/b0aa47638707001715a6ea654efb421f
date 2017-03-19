@@ -1,0 +1,41 @@
+package day04;
+
+public class FunctionDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		add(5,6);
+//		draw(5,6);
+//		System.out.println(add(5,6));
+		boolean b = equals(4,4);
+		System.out.println(b);
+	}
+
+	private static boolean equals(int i, int j) {
+		if (i == j){
+			return true;
+		}else 
+			return false;
+	}
+
+	private static int add(int i, int j) {
+		return i + j;
+	}
+	/*
+	private static void draw(int i, int j) {
+		for (int x = 1;x < i;x++){
+			for (int y = 1;y <= j;y++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		return;
+	}
+	*/
+	
+	
+	
+}

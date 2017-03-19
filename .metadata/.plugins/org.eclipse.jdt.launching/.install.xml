@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
 <entry loc="C:\Program Files\Java\jre1.8.0_65" stamp="1447522666315"/>
+<entry loc="C:\Program Files\Java\jdk1.8.0_121\jre" stamp="1485701149576"/>
 <entry loc="C:\Program Files\Java\jdk1.8.0_121" stamp="1485701183525"/>
 <entry loc="C:\Program Files\Java\jre1.8.0_91" stamp="1461566868003"/>
 <entry loc="C:\Program Files\Java\jre1.8.0_111" stamp="1484900458596"/>
+<entry loc="/usr/lib/jvm/java-8-openjdk-amd64" stamp="1487688830000"/>
 <entry loc="G:\jdk102" stamp="1480857625198"/>
 <entry loc="G:\jre102" stamp="1477332917202"/>
 <entry loc="E:\jre1.8.0_51" stamp="1454426920915"/>

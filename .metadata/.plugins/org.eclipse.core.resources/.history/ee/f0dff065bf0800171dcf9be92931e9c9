@@ -1,0 +1,36 @@
+package day06;
+
+class Person{
+	String name;
+	static String counyrt = "CN";
+	public void show(){
+		System.out.println(Person.counyrt + ":" +this.name);
+	}
+}
+
+class StaticDemo {
+	int num = 4;
+	/**
+	 * @param args
+	 * 静态代码块：用于给类进行初始化
+	 */
+	public static void main(String[] args) {
+		Person p = new Person();
+		p.name = "小强";
+		p.show();
+		System.out.println(p.counyrt);
+		System.out.println(Person.counyrt);
+//		Person.show();
+//		new StaticDemo.show();
+		
+	}
+	public void show(){
+		System.out.println(num);
+	}
+
+}
+
+
+
+
+

@@ -1,0 +1,47 @@
+importjava.util.Scanner;
+	 
+	  
+	 
+	publicclassMain {
+	 
+	    publicstaticvoidmain(String[] args) {
+	 
+	        Scanner in = newScanner(System.in);
+	 
+	        intn = in.nextInt();
+	 
+	        int[] nums = newint[n];
+	 
+	        for(inti = 0; i < n; i++) {
+	 
+	            nums[i] = in.nextInt();
+	 
+	        }
+	 
+	          
+	 
+	        intmax = Integer.MIN_VALUE;
+	 
+	        intacc = 0;
+	 
+	        for(inti = 0; i < n; i++) {
+	 
+	            acc += nums[i];
+	 
+	            if(acc > max) max = acc;
+	 
+	            // forget it if accumulative sum less than zero
+	 
+	            if(acc < 0) acc = 0;
+	 
+	        }
+	 
+	          
+	 
+	        System.out.println(max);
+	 
+	    }
+	 
+	}
+
+}

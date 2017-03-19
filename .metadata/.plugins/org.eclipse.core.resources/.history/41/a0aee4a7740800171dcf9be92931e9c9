@@ -1,0 +1,14 @@
+package day05;
+
+public class Array2Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = new int[3];
+		int[] arr1 = new int[3][2];
+		
+	}
+
+}

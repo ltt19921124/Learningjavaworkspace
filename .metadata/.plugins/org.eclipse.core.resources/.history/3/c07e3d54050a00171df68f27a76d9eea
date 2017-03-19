@@ -1,0 +1,36 @@
+package day09;
+
+
+abstract class Employee{
+	private String name;
+	
+	private String id;
+	private double pay;
+	Employee(String name,String id,double pay){
+		this.name = name;
+		this.id = id;
+		this.pay = pay;
+	}
+	public abstract void work();
+}
+
+class Manager extends Employee{
+
+	Manager(String name, String id, double pay) {
+		super(name, id, pay);
+	}
+	
+}
+
+class AbstractTest {
+
+	/**
+	 * @param args
+	 * ¹ÍÔ±Ê¾Àý
+	 * 
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

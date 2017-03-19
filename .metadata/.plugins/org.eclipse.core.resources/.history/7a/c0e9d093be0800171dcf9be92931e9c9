@@ -1,0 +1,12 @@
+package day06;
+
+public class StaticDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

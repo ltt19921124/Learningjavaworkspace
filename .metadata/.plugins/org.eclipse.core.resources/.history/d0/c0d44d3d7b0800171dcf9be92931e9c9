@@ -1,0 +1,24 @@
+package day05;
+
+public class Test1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		Test t = new Test();
+//		t.show();
+		int[] arr = {3,4,5,78,12,45};
+	}
+	
+	public static void selectSort(int[] arr){
+		for (int x = 1;x < arr.length;x++){
+			int temp = arr[x];
+			int j = x  1;
+			for (;;){
+				
+			}
+		}
+	}
+
+}

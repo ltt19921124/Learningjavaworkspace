@@ -1,0 +1,13 @@
+package day06;
+
+class StaticDemo {
+
+	/**
+	 * @param args
+	 * 静态代码块：用于给类进行初始化
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
