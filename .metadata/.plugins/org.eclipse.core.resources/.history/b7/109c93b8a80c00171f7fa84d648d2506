@@ -1,0 +1,24 @@
+package duoxiancheng;
+
+class Ticket extends Thread{
+	private int num = 100;
+	
+	public void run(){
+		while(true){
+			if(num > 0){
+				System.out.println(num--);
+			}
+		}
+	}
+}
+
+class TicketDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

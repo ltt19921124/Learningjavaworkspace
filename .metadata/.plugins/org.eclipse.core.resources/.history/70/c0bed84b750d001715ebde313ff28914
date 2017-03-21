@@ -1,0 +1,31 @@
+package duoxiancheng;
+//资源
+class Resource{
+	String name;
+	String sex;
+}
+
+//输入
+class Input implements Runnable{
+	public void run(){
+		
+	}
+}
+//输出
+class Output implements Runnable{
+	
+	
+	public void run(){
+		
+	}
+}
+class ResourceDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
