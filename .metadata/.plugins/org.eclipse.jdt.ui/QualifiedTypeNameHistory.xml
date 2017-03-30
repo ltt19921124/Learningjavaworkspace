@@ -55,8 +55,8 @@
 <fullyQualifiedTypeName name="第五章面向对象.ConstructorOverload"/>
 <fullyQualifiedTypeName name="第五章继承.SubClass"/>
 <fullyQualifiedTypeName name="第五章多态.BaseClass"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
 <fullyQualifiedTypeName name="javax.swing.text.DefaultEditorKit.InsertBreakAction"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>

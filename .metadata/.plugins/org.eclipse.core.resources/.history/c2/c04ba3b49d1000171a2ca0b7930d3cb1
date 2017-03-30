@@ -1,0 +1,19 @@
+package join;
+
+public class TestYield extends Thread{
+	
+	public TestYield(){
+		
+	}
+	public TestYield(String name){
+		super(name);
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

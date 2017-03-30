@@ -1,0 +1,12 @@
+package join;
+
+public class DaemonThread {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

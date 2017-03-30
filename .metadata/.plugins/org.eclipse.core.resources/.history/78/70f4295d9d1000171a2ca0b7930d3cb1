@@ -1,0 +1,12 @@
+package join;
+
+public class TestSleep {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
