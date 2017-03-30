@@ -10513,3 +10513,23 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2017-03-31 03:43:41.898
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-03-31 03:43:49.702
+!MESSAGE An internal error occurred during: "Re-indexing repository workspace".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:89)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findContainersForLocationURI(WorkspaceRoot.java:80)
+	at org.eclipse.egit.core.IteratorService.findContainer(IteratorService.java:59)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:82)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:528)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:908)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:566)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:287)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffData(IndexDiffCacheEntry.java:395)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$9(IndexDiffCacheEntry.java:381)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$5.run(IndexDiffCacheEntry.java:341)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
