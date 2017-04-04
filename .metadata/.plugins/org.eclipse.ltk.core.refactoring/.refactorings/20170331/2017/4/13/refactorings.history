@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;yichang.objectDemo&apos; to &apos;ObjectDemo&apos;&#x0D;&#x0A;- Original project: &apos;20170331&apos;&#x0D;&#x0A;- Original element: &apos;yichang.objectDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;yichang.ObjectDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;objectDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;yichang{objectDemo.java[objectDemo" matchStrategy="1" name="ObjectDemo" qualified="false" references="true" similarDeclarations="false" stamp="1491047000731" textual="false" version="1.0"/>
+</session>

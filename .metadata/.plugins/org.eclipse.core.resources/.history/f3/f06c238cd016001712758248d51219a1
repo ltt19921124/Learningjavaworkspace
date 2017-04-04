@@ -1,0 +1,12 @@
+package yichang;
+
+public class ObjectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
