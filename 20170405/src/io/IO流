@@ -12,3 +12,7 @@
   			InputStream OutputStream(抽象的)
   		字符流抽象基类：
   			Reader Writer
+  			
+  		需求：将一些文字存储到硬盘一个文件中
+  		操作文字数据，优先考虑字符流
+  		将数据从内存写到硬盘上，使用字符流的输出流：Writer(直接子类FileWriter)

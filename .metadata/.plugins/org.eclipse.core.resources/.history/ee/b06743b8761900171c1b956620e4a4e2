@@ -1,0 +1,21 @@
+package io;
+
+public class CopyTextTest {
+
+	/**
+	 * @param args
+	 * 需求：
+	 * 1，需要读取源
+	 * 2，将读到的源数据写入目的地
+	 * 
+	 * 
+	 */
+	public static void main(String[] args) {
+		//1,
+		
+		//2,
+		
+		//3,
+	}
+
+}

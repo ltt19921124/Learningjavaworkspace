@@ -1,0 +1,19 @@
+package io;
+
+public class CopyTextTest {
+
+	/**
+	 * @param args
+	 * 需求：
+	 * 1，需要读取源
+	 * 2，将读到的源数据写入目的地
+	 * 3，既然是操作文本数据用字符流
+	 * 
+	 */
+	public static void main(String[] args) {
+		//1,读取已有的文本文件，使用字符读取流和文件相关联
+		//2,
+		//3,
+	}
+
+}

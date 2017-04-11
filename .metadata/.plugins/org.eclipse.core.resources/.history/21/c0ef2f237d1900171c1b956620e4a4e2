@@ -1,0 +1,25 @@
+package io;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class CopyTextTest_2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		FileReader fr = null;
+		FileWriter fw = null;
+		try{
+			fr = new FileReader("IOÁ÷_2.txt");
+			fw = new FileWriter("copytest_2.txt");
+			char[] buf = new char[1024];
+			
+		}catch(Exception e){
+			
+		}
+	}
+
+}
