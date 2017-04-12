@@ -1,0 +1,29 @@
+package aa;
+
+/*
+ * ถþฮฌสýื้
+ * 
+ */
+public class Array2Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+//		int[][] arr = new int[3][2];
+//		System.out.println(arr);
+//		System.out.println(arr[0]);
+		int sum = 0;
+		int[][] arr = {{1,2,3},{1,2,3},{3,4}};
+		
+		for(int x=0;x < arr.length;x++){
+			for(int y=0;y < arr[x].length;y++){
+//				System.out.println(arr[x][y] + ",");
+				sum += arr[x][y];
+			}
+			
+		}
+		System.out.println(sum);
+	}
+
+}

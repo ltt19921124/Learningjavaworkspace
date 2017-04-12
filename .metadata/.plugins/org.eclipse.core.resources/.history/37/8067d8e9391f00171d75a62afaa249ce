@@ -1,0 +1,16 @@
+package aa;
+
+public class ArrayDemo5 {
+
+	/**
+	 * @param args
+	 * ≤È’“
+	 */
+	public static void main(String[] args) {
+		
+	}
+	public static int getIndex(){
+		
+	}
+
+}

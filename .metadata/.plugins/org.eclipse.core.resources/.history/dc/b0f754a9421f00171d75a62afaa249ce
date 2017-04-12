@@ -1,0 +1,17 @@
+package aa;
+
+/*
+ * ถþฮฌสýื้
+ * 
+ */
+
+public class Array2Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

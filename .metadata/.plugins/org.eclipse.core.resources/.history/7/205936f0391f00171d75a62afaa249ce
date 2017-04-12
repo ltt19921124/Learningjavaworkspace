@@ -1,0 +1,16 @@
+package aa;
+
+public class ArrayDemo5 {
+
+	/**
+	 * @param args
+	 * ≤È’“
+	 */
+	public static void main(String[] args) {
+		int[]arr = {1,2,34,5,7};
+	}
+	public static int getIndex(int[] arr,int key){
+		
+	}
+
+}

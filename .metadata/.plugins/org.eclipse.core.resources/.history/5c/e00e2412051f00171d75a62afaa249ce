@@ -1,0 +1,17 @@
+package aa;
+
+public class Demo1 {
+
+	/**
+	 * @param args
+	 */
+	/*
+	 * 
+	 * 
+	 * */
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		float f = (float)2.3;
+//		System.out.println(f);
+	}
+}

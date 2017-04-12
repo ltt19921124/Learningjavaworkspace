@@ -1,0 +1,36 @@
+package aa;
+
+public class Demo1 {
+
+	/**
+	 * @param args
+	 */
+	/*
+	 * 
+	 * 
+	 * */
+	public static void main(String[] args) {
+//		System.out.println("Hello World");
+//		float f = (float)2.3;
+//		System.out.println(f);
+		byte b = 5;//默认会进行强制转换
+		byte c = 2;
+		byte a = (byte)(b + c);
+		int x;
+		int x1 = 90;
+		int x2 = 89;
+		x = x1 + x2;
+//		System.out.println(x);
+		/*
+		 * 赋值运算符
+		 * */
+		short s = 3;
+		s += 4;
+//		s = s + 4;
+		System.out.println(6|3);
+	}
+}
+
+
+
+

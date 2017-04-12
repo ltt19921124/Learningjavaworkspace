@@ -1,0 +1,40 @@
+package aa;
+
+public class ArrayDemo4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int[] arr = {-4,-5,-6,23,-12,708};
+		int max = getMax_2(arr);
+		System.out.println("max=" + max);
+		
+	}
+	//
+	public static int getMax(int[] arr){
+		int max = arr[0];
+		for(int x=0;x<arr.length;x++){
+			if(arr[x] > max){
+				max = arr[x];
+			}
+		}
+		return max;
+	}
+	
+	public static int getMax_2(int[] arr){
+		int maxIndex = 0;
+		for(int x=1;x<arr.length;x++){
+			if(arr[x] > arr[maxIndex]){
+				maxIndex = x;
+			}
+		}
+		return arr[maxIndex];
+	}
+}
+
+
+
+
+
+

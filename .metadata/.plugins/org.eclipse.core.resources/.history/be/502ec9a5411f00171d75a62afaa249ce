@@ -1,0 +1,15 @@
+package aa;
+
+/*
+ * 获取正数的十六进制表现形式
+ * */
+public class ArrayTest2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}
